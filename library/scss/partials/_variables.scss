@@ -1,0 +1,64 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+$light-blue:		#80bae1;
+$red:				#cc2130;
+
+$black:             #323944;
+$white:             #fff;
+$off-white:			#f6f7f7;
+
+$light-gray:        #f8f9fa;
+$gray:              #eaedf2;
+$text-color:        #797e83;
+$header:			#323b46;
+$meta-gray:         #9fa6b4;
+
+$tan:               #eceee5;
+
+$green:             #7dd667;
+
+$bones-pink:        #f01d4f;
+$blue:              #2980b9;
+
+$link-color:        $white;
+$link-hover:        darken($link-color, 9%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+$footer:			#414344;
+$footer-link:		#bfc3c5;
+$terms:				#b0c06b;
+$btn-green:			#b0c06b;
+$btn-blue:			#74b7e5;
+$box-orange:		#cc5e27;
+$text-orange:		#cc5e27;
+$extention: 		'.png';
+$w:					width;
+$h:					height;
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/

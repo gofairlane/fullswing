@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".header").headroom({tolerance:0,offset:100,classes:{initial:"animated",pinned:"slideDown",unpinned:"slideUp",top:"headroom--top",notTop:"headroom--not-top"}})});

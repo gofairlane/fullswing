@@ -1,0 +1,123 @@
+
+/******************************************************************
+Site Name: Full Swing
+Author: Jeremy Owens
+
+Stylesheet: Widgets
+
+Here is where we declare all of the styles for the widgets.
+
+******************************************************************/
+
+/*********************
+ CALL TO ACTION
+ 	location of widget is in footer.php
+  *********************/
+
+
+  
+
+ #call-to-action-box {
+	float:left;
+	margin-top:30px;
+	margin-bottom:30px;
+	width: 33%;
+	text-align:center;
+}
+
+
+.q-a-box {
+	margin-left:auto;
+	height:100px;
+	background-color: $btn-green;
+	width: 12em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.how-work-box {
+	margin-left:auto;
+	margin-right:auto;
+	height:100px;
+	background-color: $btn-blue;
+	width: 12em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.contact-sales-box {
+	margin-right:auto;
+	height:100px;
+	background-color: $box-orange;
+	width: 12em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.q-a-box a, .how-work-box a, .contact-sales-box a {
+	text-transform: uppercase;
+	color:$white;
+	font-size: .8em;
+	font-weight: 900;
+}
+
+.q-a-box p, .how-work-box p, .contact-sales-box p {
+	font-size: .8em;
+	letter-spacing:-0.045em;
+	color: $black;
+	font-weight: 300;
+	line-height: .95em;
+}
+
+@media (max-width: 481px){
+
+ #call-to-action-box {
+	width: 100%;
+}
+.q-a-box, .how-work-box, .contact-sales-box {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+}
+
+/*********************
+ FOOTER NAV
+ 	location of widget is in footer.php footer.php
+	breakpoint for 4 col nav is in _481up.scss
+  *********************/
+
+
+
+#footer-1-section {
+	margin-top:30px;
+	width: 100%;
+}
+
+
+#footer-1-section a {
+	color:$footer-link;
+	text-transform: uppercase;
+	font-wight: 300;
+	font-size: .9em;
+	font-weight:900;
+}
+
+#footer-1-section h3 {
+	color:#8b8f91;
+	float:clear;
+	font-size:24px;
+	margin-bottom:-5px;
+	margin-top:-8px
+}
+
+
