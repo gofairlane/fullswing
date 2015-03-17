@@ -53,8 +53,9 @@ jQuery(document).ready(function($) {
         snap: '.droppable',
         snapMode: 'inner',
         snapTolerance: 30,
+        top: '0px',
         axis: 'x',
-        containment: 'parent',
+        containment: '.slide-container .slide',
         cssClasses: false
     });
     
