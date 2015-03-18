@@ -1,0 +1,146 @@
+body{
+	background: #fff;
+}
+
+.wrapper {
+  width: 96%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.center-align{
+	text-align:center;
+}
+
+@media only screen and (min-width: 760px){
+	.wrapper {
+  		width: 760px;
+	}
+}
+
+
+@media only screen and (min-width: 990px){
+	.wrapper {
+	 	width: 1200px;
+	}
+
+}
+
+.slide-container{
+    position: relative;
+    display:none;
+    width:820px;
+    margin:100px auto 40px auto;
+    text-align: center;
+}
+
+.slide-container .slide{
+    position: relative;
+    display:block;
+    width:656px;
+    height:55px;
+    background:transparent url('/wp-content/uploads/2015/03/dot_bar.png') center center no-repeat;
+    margin:10px auto;
+}
+
+.slide-container .titles{
+	font-size:14px;
+	padding:0;
+	width:100%;
+	vertical-align: top;
+}
+
+.slide-container .titles span{
+	width: 200px;
+	padding:0;
+	margin:0;
+	display: inline-block;
+	vertical-align: top;
+	color: #8f9395;
+}
+
+.slide-container .titles span.active{
+	width: 200px;
+	padding:0;
+	margin:0;
+	display: inline-block;
+	vertical-align: top;
+	color: #cc5e27;
+}
+
+.sim-content{
+	margin-bottom:30px;
+
+}
+
+.accord{
+	background: #cc5e27;
+	color:#fff;
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 15px;
+	border-bottom:1px solid #efcaa8;
+	cursor: hand; 
+    cursor: pointer;
+}
+.accord:after{
+	content:'+';
+	float:right;
+}
+
+.accord.active:after{
+	content:'-';
+	float:right;
+}
+
+.droppable { 
+    width: 53px; 
+    height: 53px; 
+    padding: 0; 
+    margin: 0;
+    position: absolute;
+    top:0;
+    cursor: hand; 
+    cursor: pointer;
+    background: transparent;
+}
+
+#orig{
+    left:0px;
+}
+
+#elite{
+    left:201px;
+}
+
+#wide{
+    left:402px;
+}
+
+#sport{
+    left:602px;
+}
+
+.draggable { 
+    width: 52px; 
+    height: 52px; 
+    padding: 0; 
+    margin: 0; 
+    cursor: hand; 
+    cursor: pointer; 
+    position:absolute;
+    top:0;
+    left: 0;
+    background:transparent;
+    border-radius: 25px;
+}
+
+.draggable:hover{
+    box-shadow: 0px 0px 4px #666666;
+}
+
+@media (min-width: 900px){
+	.slide-container{display:block;}
+	.accord{display:none;}
+
+}

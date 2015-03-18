@@ -83,7 +83,7 @@
         			               'depth' => 0,                                   // limit the depth of the nav
     					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
-						<a href="#" class="btn-mobile-nav">MB</a>
+						<a href="#" class="btn-mobile-nav"></a>
 
 					</nav>
 
