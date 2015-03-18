@@ -27,7 +27,21 @@ jQuery(document).ready(function($) {
 
 	//mobile-nav
 
-    $(document).click(function(e) {
+	
+
+
+	function getEventHandlerType(){
+
+	    return (isTouch()?'touchstart':'click');
+	}
+
+	function isTouch(){
+	    return 'ontouchstart' in window || 'onmsgesturechange' in window;
+	}
+
+	$(document).on(getEventHandlerType(), function(e){
+    //$(document).click(function(e) {
+   	//$(document).on('click touchstart', function (e) {
 
     	//console.log('click');
 
@@ -40,24 +54,27 @@ jQuery(document).ready(function($) {
 	    	&& (!container.is(e.target)  // if the target of the click isn't the container...
 	        && container.has(e.target).length === 0)) // ... nor a descendant of the container
 		    {
+		    	e.stopPropagation();
 		    	e.preventDefault();
 
 		        $('body').toggleClass('mobile-open');
 		        $('html').toggleClass('noscroll');
-	        	$('#mobile-header').removeClass('mobile-open');
-	        	$('.headroom--top').removeClass('mobile-open');
+	        	$('#mobile-header').toggleClass('mobile-open');
+	        	$('.headroom--top').toggleClass('mobile-open');
 
 	        	return false;
 		    }
 	    } else { //if it is then toggle the nav
 
-	    	console.log(e.target);
-	    	console.log('mobile button');
+	    	e.stopPropagation();
+	    	e.preventDefault();
 
 	        $('body').toggleClass('mobile-open');
 	        $('html').toggleClass('noscroll');
 	        $('#mobile-header').toggleClass('mobile-open');
 	        $('.headroom--top').toggleClass('mobile-open');
+
+	        return false;	
 	    }
 	    
 	});
