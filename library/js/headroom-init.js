@@ -26,13 +26,44 @@ jQuery(document).ready(function($) {
 	});
 
 	//mobile-nav
-	$( '.btn-mobile-nav' ).click(function() {
-        $('body').toggleClass('mobile-open');
-        $('#mobile-header').toggleClass('mobile-open');
-        $('.headroom--top').toggleClass('mobile-open');
-    });
 
-    //sim selector
+    $(document).click(function(e) {
+
+    	//console.log('click');
+
+	    var container = $('#mobile-header');
+	    var btn = $('.btn-mobile-nav');
+
+	    if(!btn.is(e.target)){ // make sure the target is not the mobile button
+
+	    	if (container.hasClass('mobile-open') // check to see if the nav is open
+	    	&& (!container.is(e.target)  // if the target of the click isn't the container...
+	        && container.has(e.target).length === 0)) // ... nor a descendant of the container
+		    {
+		    	e.preventDefault();
+
+		        $('body').toggleClass('mobile-open');
+		        $('html').toggleClass('noscroll');
+	        	$('#mobile-header').removeClass('mobile-open');
+	        	$('.headroom--top').removeClass('mobile-open');
+
+	        	return false;
+		    }
+	    } else { //if it is then toggle the nav
+
+	    	console.log(e.target);
+	    	console.log('mobile button');
+
+	        $('body').toggleClass('mobile-open');
+	        $('html').toggleClass('noscroll');
+	        $('#mobile-header').toggleClass('mobile-open');
+	        $('.headroom--top').toggleClass('mobile-open');
+	    }
+	    
+	});
+
+
+//sim selector
 
     // setup defaults
 	hideElements = function(){

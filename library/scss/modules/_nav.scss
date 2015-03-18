@@ -55,6 +55,12 @@ body{
   	}
 }
 
+html{
+	&.noscroll{
+		overflow-y: hidden;
+	}
+}
+
 .headroom--top{
 	right:0px;
 	transition: all 0.3s ease;
