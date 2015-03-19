@@ -1056,6 +1056,43 @@ body {
 
   .accord {
     display: none; } }
+/******************************************************************
+Site Name: Full Swing
+Author: Jeremy Owens
+
+Stylesheet: Page Syles
+
+Here is where we declare all of the styles for the widgets.
+
+******************************************************************/
+/*********************
+ HOME PAGE - Section 3 - Why Full Swing Golf
+ 	location of widget is in footer.php
+  *********************/
+.icon-group {
+  margin-left: 15%;
+  width: 90%; }
+
+.column-4 {
+  float: left;
+  margin-top: 30px;
+  min-width: 50%; }
+
+.column-4 h3 {
+  font-size: 1.2em;
+  color: #efcaa8;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px; }
+
+.column-4 h4 {
+  color: #efcaa8;
+  padding-left: 10px;
+  float: left;
+  line-height: .95em;
+  font-weight: 100;
+  margin-top: 0px; }
+
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
@@ -2071,9 +2108,20 @@ view.
 
 .home-tag-line {
   font-size: 38px;
-  padding: 250px 50px 200px;
+  margin-left: 33%;
+  padding-top: 35%;
+  color: #fff; }
+
+.world-leader {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.world-leader p {
   text-align: center;
-  color: #b0c06b; }
+  -moz-hyphens: none;
+  hyphens: none; }
 
 #home-parallax-section {
   height: 875px;
@@ -2574,7 +2622,16 @@ you can add resource intensive styles.
     the footer.
     */ }
 
-  /* end .footer-links */ }
+  /* end .footer-links */
+  .icon-group {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; }
+
+  .column-4 {
+    float: left;
+    margin-top: 30px;
+    min-width: 20%; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
@@ -2593,7 +2650,16 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+
+  .icon-group {
+    margin-left: auto;
+    width: 90%; }
+
+  .column-4 {
+    float: left;
+    margin-top: 30px;
+    min-width: 25%; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.

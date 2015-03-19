@@ -367,6 +367,16 @@ mobile. Make sure to double check these!
   */ }
 
 /* end .footer-links */
+.icon-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.column-4 {
+  float: left;
+  margin-top: 30px;
+  min-width: 20%; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -379,6 +389,15 @@ be seen on the Desktop.
 ******************************************************************/
 .wrap {
   width: 1040px; }
+
+.icon-group {
+  margin-left: auto;
+  width: 90%; }
+
+.column-4 {
+  float: left;
+  margin-top: 30px;
+  min-width: 25%; }
 
 /*
 you can call the larger styles if you want, but there's really no need

@@ -958,10 +958,27 @@ width:60%;
 
 .home-tag-line {
 	font-size: 38px;
-	padding: 250px 50px 200px;
-	text-align: center;
-	color: #b0c06b;
+	margin-left:33%;
+	padding-top:35%;
+	color: $white;
 }
+
+.world-leader {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	
+}
+
+.world-leader p {
+	text-align:center;
+	-moz-hyphens:none;
+	hyphens: none;
+}
+
+.world-leader h2 {
+	}
 
 #home-parallax-section {
 	height:875px;
@@ -1127,9 +1144,6 @@ width:60%;
 	border-radius: 4px;
 
 }
-
-
-
 
 
 
