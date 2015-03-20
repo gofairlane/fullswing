@@ -1127,6 +1127,16 @@ width:60%;
 	color:$light-blue;
 	}
 
+.section-3-sim-list-blue img {
+	float:left;
+	margin-right:20px;
+	}
+
+.section-3-sim-list-red img {
+	float:left;
+	margin-right:20px;
+	}
+
 .section-3-sim-list-red h3 {
 	color:$red;
 }
@@ -1196,3 +1206,11 @@ width:60%;
 	display:none;
 }
 }
+
+.tp-bullets.tp-thumbs {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    }
+
+.tp-bullets.tp-thumbs .bullet {
+	margin-left:5px !important;
+	}

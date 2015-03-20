@@ -112,11 +112,19 @@ Here is where we declare all of the styles for the widgets.
 	font-weight:900;
 }
 
-#footer-1-section h3 {
+#social-footer h3 {
 	color:#8b8f91;
 	float:clear;
-	font-size:24px;
+	font-size:1em;
 	margin-bottom:-5px;
-	margin-top:-8px
+	margin-top:0px
 }
+
+#footer-1-section i {
+	float:left;
+	font-size:1.5em;
+	color:$footer-link;
+	padding-right:.5em;
+	padding-top:.6em;
+	}
 

@@ -929,12 +929,19 @@ Here is where we declare all of the styles for the widgets.
   font-size: .9em;
   font-weight: 900; }
 
-#footer-1-section h3 {
+#social-footer h3 {
   color: #8b8f91;
   float: clear;
-  font-size: 24px;
+  font-size: 1em;
   margin-bottom: -5px;
-  margin-top: -8px; }
+  margin-top: 0px; }
+
+#footer-1-section i {
+  float: left;
+  font-size: 1.5em;
+  color: #bfc3c5;
+  padding-right: .5em;
+  padding-top: .6em; }
 
 body {
   background: #fff; }
@@ -1222,7 +1229,12 @@ div.nchgrid-item.nch-lightbox-vimeo a .nchgrid-caption, div.ts-hover-vimeo .deta
 /*********************
 SIM HOME PAGE - Section 5 - Flyover Gallery
   *********************/
-.icon-background-box {
+.fly-over-header h2 {
+  text-align: center;
+  color: #fff;
+  width: 70%; }
+
+.fly-group {
   padding: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -1232,26 +1244,35 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
-.sim-column-4 {
+.fly-4 {
   float: left;
   margin-top: 30px;
   width: 100%; }
 
-.sim-column-4 h3 {
+.fly-4 h3 {
   font-size: 1.2em;
   color: #323944;
   float: left;
   margin-top: -1px;
   margin-left: 10px; }
 
-.sim-column-4 h4 {
-  background: #323944;
+.fly-4 h4 {
   color: #323944;
   padding-left: 10px;
   float: left;
   line-height: .95em;
   font-weight: 100;
   margin-top: 0px; }
+
+.fly-4 h3 i {
+  font-size: 1.9em;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: .3em; }
 
 /*********************
 IMPORTING MODULES
@@ -2477,6 +2498,14 @@ view.
 .section-3-sim-list-blue h3 {
   color: #80bae1; }
 
+.section-3-sim-list-blue img {
+  float: left;
+  margin-right: 20px; }
+
+.section-3-sim-list-red img {
+  float: left;
+  margin-right: 20px; }
+
 .section-3-sim-list-red h3 {
   color: #cc2130; }
 
@@ -2527,6 +2556,12 @@ view.
 @media (max-width: 481px) {
   .swing-background {
     display: none; } }
+.tp-bullets.tp-thumbs {
+  background-color: transparent !important; }
+
+.tp-bullets.tp-thumbs .bullet {
+  margin-left: 5px !important; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2909,5 +2944,3 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-
-/*# sourceMappingURL=style.css.map */
