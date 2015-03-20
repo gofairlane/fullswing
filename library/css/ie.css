@@ -233,6 +233,16 @@ check your menus here. do they look good?
 do they need tweaking?
 */
 /* end .footer-links */
+.icon-group {
+  margin-left: 10%;
+  width: 100%; }
+
+.column-4 {
+  float: left;
+  margin-top: 30px;
+  margin-right: 5px;
+  width: 170px; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -369,13 +379,13 @@ mobile. Make sure to double check these!
 /* end .footer-links */
 .icon-group {
   margin-left: auto;
-  margin-right: auto;
-  width: 90%; }
+  width: 100%; }
 
 .column-4 {
   float: left;
   margin-top: 30px;
-  min-width: 20%; }
+  margin-right: 5px;
+  width: 170px; }
 
 /******************************************************************
 Site Name:
@@ -391,13 +401,14 @@ be seen on the Desktop.
   width: 1040px; }
 
 .icon-group {
-  margin-left: auto;
-  width: 90%; }
+  margin-left: 10%;
+  width: 100%; }
 
 .column-4 {
   float: left;
   margin-top: 30px;
-  min-width: 25%; }
+  margin-right: 5px;
+  width: 205px; }
 
 /*
 you can call the larger styles if you want, but there's really no need

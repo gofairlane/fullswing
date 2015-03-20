@@ -4,34 +4,69 @@ Author: Jeremy Owens
 
 Stylesheet: Page Syles
 
-Here is where we declare all of the styles for the widgets.
+Here is where we declare all of the styles for the page styles.
 
 ******************************************************************/
 
 /*********************
+ HOME PAGE - Section 1 - Tag Line
+  *********************/
+
+.home-tag-line {
+	font-size: 38px;
+	margin-left:33%;
+	padding-top:35%;
+	color: $white;
+}
+
+
+/*********************
+ HOME PAGE - Section 2 - World Leader
+  *********************/
+.world-leader {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	
+}
+
+.world-leader p {
+	text-align:center;
+	-moz-hyphens: none;
+  	hyphens: none;
+	
+}
+
+.world-leader h2 {
+	}
+
+
+/*********************
  HOME PAGE - Section 3 - Why Full Swing Golf
- 	location of widget is in footer.php
   *********************/
 
 
   .icon-group {
-  margin-left:15%;
+  margin-left:20%;
   width:90%;
 	
 }
 .column-4 {
 	float:left;
 	margin-top:30px;
-	min-width: 50%;
+	width:100%;
 }
 
 .column-4 h3 {
 	font-size:1.2em;
-	color:#efcaa8;
+	color:$black;
 	float:left;
-	margin-top:5px;
+	margin-top:-1px;
 	margin-left:10px;
 	}
+
+
 
 .column-4 h4 {
 	color:#efcaa8;
@@ -41,3 +76,126 @@ Here is where we declare all of the styles for the widgets.
 	font-weight:100;
 	margin-top:0px;
 	}
+
+.custom-fs-uni61, .custom-fs-uni62, .custom-fs-uni67, .custom-fs-uni76, .custom-fs-uni77, .custom-fs-uni6E, .custom-fs-uni6D, .custom-fs-uni6F {
+	font-size:1.9em;	
+	width: 10px; 
+	height: 10px; 
+	background:#efcaa8; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	padding:.3em;
+	}
+
+/*********************
+ HOME PAGE - Section 4 - Sim Sliders
+  *********************/
+
+	.button-green a {
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top:10px;
+	text-align:center;
+	text-transform: uppercase;
+	color:$white;
+	letter-spacing:-0.045em;
+	font-weight: 900;
+	display: block;
+	background-color: $btn-green;
+	width: 13em;
+	padding: .5em .8em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.button-blue a {
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top:10px;
+	text-align:center;
+	text-transform: uppercase;
+	color:$white;
+	letter-spacing:-0.045em;
+	font-weight: 900;
+	display: block;
+	background-color: $btn-blue;
+	width: 13em;
+	padding: .5em .8em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+/*********************
+ HOME PAGE - Section 5 - Video Gallery
+  *********************/
+
+.video-header h2{
+	text-align:center;
+	color:$white;
+	
+}
+
+.video-title h4{
+	text-align:center;
+	color:$white;
+	
+}
+
+.video-lightbox-all{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:2em;
+	padding-bottom:2em;
+	width:80%;
+	height:100%;
+}
+
+#video-thumb {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:200px;
+	height:9em;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.video-thumb img{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:250px;
+	height:9em;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.video-button a {
+	text-transform: uppercase;
+	text-align:center;
+	color:$white;
+	font-size: .9em;
+	font-weight: 900;
+	height:100%;
+	margin-left: auto;
+  	margin-right: auto;
+	display: block;
+	background-color: $box-orange;
+	width: 14em;
+	padding: .5em .5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+div.nchgrid-item.nch-lightbox-vimeo a .nchgrid-caption, div.ts-hover-vimeo .details {
+    background-image: none !important;
+}

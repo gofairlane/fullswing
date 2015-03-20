@@ -516,22 +516,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/library\/scss\/breakpoints\/_base.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/scss\/breakpoints\/_base.scss",
-		"outputAbbreviatedPath": "\/library\/scss\/css\/_base.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/library\/scss\/editor-style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
