@@ -1670,10 +1670,11 @@ select {
     display: block;
     padding: 0.5em; }
     .top-nav .sub-menu > li a {
-      border: 0; }
+      border: 0;
+      width: 150px; }
   .top-nav i {
     font-size: 20px;
-    line-height: 60px;
+    line-height: 50px;
     padding: 0 4px; }
 
 .nav li ul.sub-menu li a, .nav li ul.children li a {
@@ -1943,7 +1944,7 @@ and more scalable.
   border-bottom: 5px;
   margin-right: 5px;
   margin-bottom: 0px;
-  margin-top: -50px;
+  margin-top: -45px;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -1958,7 +1959,7 @@ and more scalable.
     .nav li a {
       display: block;
       text-decoration: none;
-      padding: 0.75em;
+      padding: 0.25em 0.75em;
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
@@ -2672,7 +2673,7 @@ you can add resource intensive styles.
         */ }
       .nav li ul.sub-menu,
       .nav li ul.children {
-        margin-top: 0;
+        margin-top: -10px;
         border-top: 0;
         position: absolute;
         visibility: hidden;
@@ -2908,3 +2909,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */
