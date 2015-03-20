@@ -1643,6 +1643,42 @@ select {
 .nav.top-nav {
   display: block; }
 
+.top-nav {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; }
+  .top-nav > li a {
+    color: #c5c9cb; }
+    .top-nav > li a:hover {
+      color: #74b7e5;
+      text-decoration: none; }
+  .top-nav > li:nth-child(8) {
+    margin-right: 15px; }
+    .top-nav > li:nth-child(8) a {
+      background: #414344;
+      border-radius: 4px;
+      color: #b0c06b; }
+      .top-nav > li:nth-child(8) a:hover {
+        color: #74b7e5; }
+  .top-nav .sub-menu {
+    background: #414344;
+    color: #fff;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px 0px 4px 4px;
+    border: 0;
+    display: block;
+    padding: 0.5em; }
+    .top-nav .sub-menu > li a {
+      border: 0; }
+  .top-nav i {
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0 4px; }
+
+.nav li ul.sub-menu li a, .nav li ul.children li a {
+  padding-left: 0px; }
+
 .mobile-nav {
   background: #000;
   width: 240px;
@@ -1660,6 +1696,40 @@ select {
   /** Opera **/ }
   .mobile-nav.mobile-open {
     right: 0px; }
+  .mobile-nav .mobile-side-nav {
+    margin: 2em; }
+    .mobile-nav .mobile-side-nav > li {
+      padding: 4px 0;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase; }
+      .mobile-nav .mobile-side-nav > li .sub-menu {
+        border-bottom: 1px solid rgba(108, 111, 113, 0.5);
+        margin: 0 0 .75em 0;
+        padding: 0 0 1em 0; }
+        .mobile-nav .mobile-side-nav > li .sub-menu > li {
+          padding: 4px 0; }
+    .mobile-nav .mobile-side-nav > li:first-child {
+      display: none; }
+    .mobile-nav .mobile-side-nav > li:nth-child(2) > a {
+      cursor: default;
+      font-size: 13px;
+      font-weight: normal;
+      color: #6c6f71; }
+    .mobile-nav .mobile-side-nav > li:nth-child(8) {
+      background: #666;
+      border-radius: 4px;
+      margin-top: 1em;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px; }
+    .mobile-nav .mobile-side-nav > li:nth-child(9),
+    .mobile-nav .mobile-side-nav > li:nth-child(10),
+    .mobile-nav .mobile-side-nav > li:nth-child(11),
+    .mobile-nav .mobile-side-nav > li:nth-child(12) {
+      padding: 1em 0.25em 0 0.25em;
+      font-size: 24px;
+      display: inline-block; }
 
 #logo {
   margin-left: 0px; }
@@ -1698,41 +1768,6 @@ html.noscroll {
   /** Opera **/ }
   .headroom--top.mobile-open {
     right: 240px; }
-
-.mobile-side-nav {
-  margin: 2em; }
-  .mobile-side-nav > li {
-    padding: 4px 0;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase; }
-    .mobile-side-nav > li .sub-menu {
-      border-bottom: 1px solid rgba(108, 111, 113, 0.5);
-      margin: 0 0 .75em 0;
-      padding: 0 0 1em 0; }
-      .mobile-side-nav > li .sub-menu > li {
-        padding: 4px 0; }
-  .mobile-side-nav > li:first-child {
-    display: none; }
-  .mobile-side-nav > li:nth-child(2) > a {
-    cursor: default;
-    font-size: 13px;
-    font-weight: normal;
-    color: #6c6f71; }
-  .mobile-side-nav > li:nth-child(8) {
-    background: #666;
-    border-radius: 4px;
-    margin-top: 1em;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px; }
-  .mobile-side-nav > li:nth-child(9),
-  .mobile-side-nav > li:nth-child(10),
-  .mobile-side-nav > li:nth-child(11),
-  .mobile-side-nav > li:nth-child(12) {
-    padding: 1em 0.25em 0 0.25em;
-    font-size: 24px;
-    display: inline-block; }
 
 @media (max-width: 980px) {
   #logo .btn-mobile-nav {
@@ -1891,8 +1926,7 @@ HEADER STYLES
   margin-top: -120px; }
 
 #logo a {
-  margin: 0.75em 0;
-  color: #fff; }
+  margin: 0.75em 0; }
 
 /*********************
 NAVIGATION STYLES
@@ -1923,7 +1957,6 @@ and more scalable.
     */ }
     .nav li a {
       display: block;
-      color: #fff;
       text-decoration: none;
       padding: 0.75em;
       /*
@@ -1932,9 +1965,6 @@ and more scalable.
       the style.scss file where it's relevant. We want to
       keep this file as small as possible!
       */ }
-    .nav li ul.sub-menu li a,
-    .nav li ul.children li a {
-      padding-left: 30px; }
 
 /* end .nav */
 /*********************
@@ -2640,13 +2670,9 @@ you can add resource intensive styles.
         you can use hover styles here even though this size
         has the possibility of being a mobile device.
         */ }
-        .nav li a:hover, .nav li a:focus {
-          color: #fff;
-          text-decoration: underline; }
       .nav li ul.sub-menu,
       .nav li ul.children {
         margin-top: 0;
-        border: 1px solid #ccc;
         border-top: 0;
         position: absolute;
         visibility: hidden;
@@ -2659,16 +2685,6 @@ you can add resource intensive styles.
           just remember deeper menus suck
           for usability. k, bai.
           */ }
-          .nav li ul.sub-menu li a,
-          .nav li ul.children li a {
-            padding-left: 10px;
-            border-right: 0;
-            display: block;
-            width: 180px;
-            border-bottom: 1px solid #ccc; }
-          .nav li ul.sub-menu li:last-child a,
-          .nav li ul.children li:last-child a {
-            border-bottom: 0; }
           .nav li ul.sub-menu li ul,
           .nav li ul.children li ul {
             top: 0;
