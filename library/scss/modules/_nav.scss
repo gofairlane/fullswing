@@ -75,6 +75,52 @@ html{
 	}
 }
 
+//side nav
+
+.mobile-side-nav{
+	margin:2em;
+
+	>li{
+		padding:4px 0;
+		font-weight:bold;
+		font-size: 16px;
+		text-transform: uppercase;
+
+		.sub-menu{
+			border-bottom: 1px solid rgba(108, 111, 113, 0.5);
+			margin:0 0 .75em 0;
+			padding:0 0 1em 0;
+
+			>li{
+				padding:4px 0;
+			}
+		}
+	}
+
+	>li:first-child{
+		display:none;
+	}
+
+	>li:nth-child(2){
+		>a{
+			cursor: default;
+			font-size: 13px;
+			font-weight: normal;
+			color: #6c6f71;
+		}
+	}
+
+	>li:last-child{
+		background: #666;
+		border-radius: 4px;
+		margin-top:1em;
+		text-align: center;
+		padding:10px 0;
+		font-size:14px;
+	}
+
+}
+
 @media (max-width: 980px){
 	#logo .btn-mobile-nav{
 		display:block;
