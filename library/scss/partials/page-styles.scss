@@ -77,7 +77,7 @@ Here is where we declare all of the styles for the page styles.
 	margin-top:0px;
 	}
 
-.custom-fs-uni61, .custom-fs-uni62, .custom-fs-uni67, .custom-fs-uni76, .custom-fs-uni77, .custom-fs-uni6E, .custom-fs-uni6D, .custom-fs-uni6F {
+.column-4 h3 i {
 	font-size:1.9em;	
 	width: 10px; 
 	height: 10px; 
@@ -199,3 +199,49 @@ Here is where we declare all of the styles for the page styles.
 div.nchgrid-item.nch-lightbox-vimeo a .nchgrid-caption, div.ts-hover-vimeo .details {
     background-image: none !important;
 }
+
+
+
+
+/*********************
+SIM HOME PAGE - Section 5 - Flyover Gallery
+  *********************/
+
+
+  .icon-background-box {
+	padding:2em;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	background:rgba(255, 255, 255, 0.4);
+	height:100%;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.sim-column-4 {
+	float:left;
+	margin-top:30px;
+	width:100%;
+}
+
+.sim-column-4 h3 {
+	font-size:1.2em;
+	color:$black;
+	float:left;
+	margin-top:-1px;
+	margin-left:10px;
+	}
+
+
+
+.sim-column-4 h4 {
+	background:$black;
+	color:$black;
+	padding-left:10px;
+	float:left;
+	line-height: .95em;
+	font-weight:100;
+	margin-top:0px;
+	}
+
