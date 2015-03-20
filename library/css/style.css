@@ -1685,13 +1685,20 @@ html.noscroll {
     font-size: 13px;
     font-weight: normal;
     color: #6c6f71; }
-  .mobile-side-nav > li:last-child {
+  .mobile-side-nav > li:nth-child(8) {
     background: #666;
     border-radius: 4px;
     margin-top: 1em;
     text-align: center;
     padding: 10px 0;
     font-size: 14px; }
+  .mobile-side-nav > li:nth-child(9),
+  .mobile-side-nav > li:nth-child(10),
+  .mobile-side-nav > li:nth-child(11),
+  .mobile-side-nav > li:nth-child(12) {
+    padding: 1em 0.25em 0 0.25em;
+    font-size: 24px;
+    display: inline-block; }
 
 @media (max-width: 980px) {
   #logo .btn-mobile-nav {
@@ -2861,3 +2868,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */
