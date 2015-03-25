@@ -964,7 +964,7 @@ body {
   position: relative;
   display: none;
   width: 820px;
-  margin: 100px auto 40px auto;
+  margin: 30px auto 40px auto;
   text-align: center; }
 
 .slide-container .slide {
@@ -999,6 +999,9 @@ body {
 
 .sim-content {
   margin-bottom: 30px; }
+
+.sim-detail {
+  text-align: center; }
 
 .accord {
   background: #cc5e27;
@@ -2944,3 +2947,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */
