@@ -1765,7 +1765,9 @@ select {
   -moz-transition: all 0.3s ease;
   /** Firefox **/
   -o-transition: all 0.3s ease;
-  /** Opera **/ }
+  /** Opera **/
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
   .mobile-nav.mobile-open {
     right: 0px; }
   .mobile-nav .mobile-side-nav {
