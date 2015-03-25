@@ -989,6 +989,20 @@ body {
   vertical-align: top;
   color: #8f9395; }
 
+.slide-container .titles a {
+  background: #74b7e5;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block; }
+  .slide-container .titles a:hover {
+    color: #fff;
+    background: #026cad; }
+
 .slide-container .titles span.active {
   width: 200px;
   padding: 0;
