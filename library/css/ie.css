@@ -396,6 +396,18 @@ be seen on the Desktop.
   margin-right: 5px;
   width: 205px; }
 
+.post-layout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+social-post a {
+  width: 70%; }
+
+.post-social-buttons {
+  margin-left: -13px;
+  margin-top: -20px; }
+
 /*
 you can call the larger styles if you want, but there's really no need
 */

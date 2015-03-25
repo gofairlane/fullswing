@@ -1318,7 +1318,11 @@ POSTS
   width: 70%; }
 
 social-post a {
-  width: 70%; }
+  width: 90%; }
+
+.post-social-buttons {
+  margin-left: -13px;
+  margin-top: -20px; }
 
 /*********************
 IMPORTING MODULES
@@ -2860,7 +2864,19 @@ you can add resource intensive styles.
     float: left;
     margin-top: 30px;
     margin-right: 5px;
-    width: 205px; } }
+    width: 205px; }
+
+  .post-layout {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+
+  social-post a {
+    width: 70%; }
+
+  .post-social-buttons {
+    margin-left: -13px;
+    margin-top: -20px; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
