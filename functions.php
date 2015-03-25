@@ -381,7 +381,13 @@ function load_fonts() {
         }
     
     add_action('wp_print_styles', 'load_fonts');
-    
+
+/**
+* Creates sharethis shortcode
+*/
+if (function_exists('st_makeEntries')) :
+add_shortcode('sharethis', 'st_makeEntries');
+endif; 
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

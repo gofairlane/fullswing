@@ -232,13 +232,22 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
 
 .fly-4 h3 {
 	font-size:1.2em;
-	color:$black;
+	color:$white;
 	float:left;
 	margin-top:-1px;
 	margin-left:10px;
 	}
 
-
+.fly-4 h3 i {
+	font-size:1.9em;	
+	width: 10px; 
+	height: 10px; 
+	background:$black; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	padding:.3em;
+	}
 
 .fly-4 h4 {
 	color:$black;
@@ -249,13 +258,47 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
 	margin-top:0px;
 	}
 
-.fly-4 h3 i {
-	font-size:1.9em;	
-	width: 10px; 
-	height: 10px; 
-	background:$white; 
-	-moz-border-radius: 50px; 
-	-webkit-border-radius: 50px; 
-	border-radius: 50px;
-	padding:.3em;
+/*********************
+VIDEOS PAGE
+  *********************/
+
+.eg-video-element-0 {
+	width:80% !important;
 	}
+
+.esg-grid * {
+}
+i {
+	font-size:1.5em !important;
+	color:$footer-link !important;
+		}
+
+[class^="eg-icon-"]::before, [class*=" eg-icon-"]::before {
+	margin-bottom:10px !important;
+	}
+
+	/*********************
+POSTS
+  *********************/
+
+  .page-heading h1 {
+  	text-align: center;
+  	color:$white;
+  	margin-top: 150px;
+
+  }
+
+ .post-layout {
+ 	margin-left:auto;
+ 	margin-right:auto;
+ 	width:70%;
+
+  }
+
+ 
+
+social-post a {
+	width:70%;
+}
+ 
+ 

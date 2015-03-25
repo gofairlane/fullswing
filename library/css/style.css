@@ -1268,10 +1268,20 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
 
 .fly-4 h3 {
   font-size: 1.2em;
-  color: #323944;
+  color: #fff;
   float: left;
   margin-top: -1px;
   margin-left: 10px; }
+
+.fly-4 h3 i {
+  font-size: 1.9em;
+  width: 10px;
+  height: 10px;
+  background: #323944;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: .3em; }
 
 .fly-4 h4 {
   color: #323944;
@@ -1281,15 +1291,34 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
   font-weight: 100;
   margin-top: 0px; }
 
-.fly-4 h3 i {
-  font-size: 1.9em;
-  width: 10px;
-  height: 10px;
-  background: #fff;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  padding: .3em; }
+/*********************
+VIDEOS PAGE
+  *********************/
+.eg-video-element-0 {
+  width: 80% !important; }
+
+i {
+  font-size: 1.5em !important;
+  color: #bfc3c5 !important; }
+
+[class^="eg-icon-"]::before, [class*=" eg-icon-"]::before {
+  margin-bottom: 10px !important; }
+
+	/*********************
+POSTS
+  *********************/
+.page-heading h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px; }
+
+.post-layout {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+social-post a {
+  width: 70%; }
 
 /*********************
 IMPORTING MODULES
@@ -1808,7 +1837,7 @@ html.noscroll {
   .headroom--top.mobile-open {
     right: 240px; }
 
-@media (max-width: 980px) {
+@media (max-width: 1030px) {
   #logo .btn-mobile-nav {
     display: block; }
 
@@ -2961,5 +2990,3 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-
-/*# sourceMappingURL=style.css.map */
