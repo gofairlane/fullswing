@@ -108,14 +108,34 @@ jQuery(document).ready(function($) {
         top: '0px',
         axis: 'x',
         containment: '.slide-container .slide',
-        cssClasses: false
+        cssClasses: false,
+        drag: function( event, ui ) {
+        	ui.position.top = "0px";
+        	$('.draggable.ui-draggable').css({top: 0});
+        },
+        stop: function( event, ui ) {
+        	ui.position.top = "0px";
+        	$('.draggable.ui-draggable').css({top: 0});
+        },
+        start: function( event, ui ) {
+        	ui.position.top = "0px";
+        	$('.draggable.ui-draggable').css({top: 0});
+        }
     });
+
     
     $( '.droppable' ).droppable({
         activeClass: 'ui-state-hover',
         hoverClass: 'ui-state-active',
         cssClasses: false,
-        drop: function( event, ui ) {}
+        drop: function( event, ui ) {
+        	ui.position.top = "0px";
+        	$('.draggable.ui-draggable.ui-draggable-handle').css({top: 0});
+        },
+        stop: function( event, ui ) {
+        	ui.position.top = "0px";
+        	$('.draggable.ui-draggable').css({top: 0});
+        }
     });            
        
 //Set Up Slider Click Events.
@@ -160,7 +180,8 @@ jQuery(document).ready(function($) {
             hideElements();
             $('.tle-orig a').show();
             $('.tle-orig').addClass('active');
-            $('.detail-orig').fadeIn();       
+            $('.detail-orig').fadeIn();
+            //$('.draggable.ui-draggable.ui-draggable-handle').css({top: 0});      
         }
     });
     
@@ -170,6 +191,7 @@ jQuery(document).ready(function($) {
             $('.tle-elite a').show();
             $('.tle-elite').addClass('active');
             $('.detail-elite').fadeIn();
+            //$('.draggable.ui-draggable.ui-draggable-handle').css({top: 0});
         }
     });
     
@@ -178,7 +200,8 @@ jQuery(document).ready(function($) {
             hideElements();
             $('.tle-wide a').show();
             $('.tle-wide').addClass('active');  
-            $('.detail-wide').fadeIn();         
+            $('.detail-wide').fadeIn();
+            //$('.draggable.ui-draggable.ui-draggable-handle').css({top: 0});        
         }
     });
 
@@ -187,7 +210,8 @@ jQuery(document).ready(function($) {
             hideElements();
             $('.tle-sport a').show();
             $('.tle-sport').addClass('active');
-            $('.detail-sport').fadeIn();            
+            $('.detail-sport').fadeIn(); 
+            //$('.draggable.ui-draggable.ui-draggable-handle').css({top: 0});           
         }
     });
 
