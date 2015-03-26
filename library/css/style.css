@@ -1717,20 +1717,27 @@ select {
 .top-nav {
   font-size: 14px;
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  /* turned off until after launch
+  	>li:nth-child(8){
+  		margin-right: 15px;
+  
+  		a{
+  			background: #414344;
+  			border-radius: 4px;
+  			color: #b0c06b;
+  
+  			&:hover{
+  				color: #74b7e5;
+  			}
+  		}
+  	}
+  */ }
   .top-nav > li a {
     color: #c5c9cb; }
     .top-nav > li a:hover {
       color: #74b7e5;
       text-decoration: none; }
-  .top-nav > li:nth-child(8) {
-    margin-right: 15px; }
-    .top-nav > li:nth-child(8) a {
-      background: #414344;
-      border-radius: 4px;
-      color: #b0c06b; }
-      .top-nav > li:nth-child(8) a:hover {
-        color: #74b7e5; }
   .top-nav .sub-menu {
     background: #414344;
     color: #fff;
