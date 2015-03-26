@@ -855,12 +855,23 @@ Here is where we declare all of the styles for the widgets.
  CALL TO ACTION
  	location of widget is in footer.php
   *********************/
+/* turn off 1 box until after launch
+ #call-to-action-box {
+	float:left;
+	margin-top:30px;
+	margin-bottom:30px;
+	width: 33%;
+	text-align:center;
+}
+*/
 #call-to-action-box {
   float: left;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 33%;
-  text-align: center; }
+  width: 50%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .q-a-box {
   margin-left: auto;
