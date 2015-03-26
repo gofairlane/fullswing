@@ -373,6 +373,20 @@ mobile. Make sure to double check these!
   margin-right: 5px;
   width: 170px; }
 
+.iphorm-outer {
+  overflow-y: scroll;
+  height: 700px;
+  width: 600px; }
+
+.iphorm-outer::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px; }
+
+.iphorm-outer::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
+
 /******************************************************************
 Site Name:
 Author:
@@ -431,3 +445,5 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
+
+/*# sourceMappingURL=ie.css.map */
