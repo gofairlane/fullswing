@@ -312,10 +312,12 @@ social-post a {
 CONTACT US PAGE
   *********************/
 
+ .contact-all {
+ 	width:90%;
+ }
  .contact-us {
  	margin-left:auto;
  	margin-right:auto;
- 	width:90%;
  	}
 
 
@@ -326,4 +328,28 @@ CONTACT US PAGE
  .contact-us a:hover {
  	color:$optional-hover;
  }
+
+.contact-us small {
+ 	text-size:.7em;
+ 	color:$small-grey;
+ }
+
+ .support-button a {
+	text-transform: uppercase;
+	text-align:center;
+	color:$white;
+	font-size: .9em;
+	font-weight: 900;
+	height:100%;
+	margin-left: auto;
+  	margin-right: auto;
+	display: block;
+	background-color: $box-orange;
+	width: 14em;
+	padding: .5em .5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
 
