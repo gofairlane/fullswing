@@ -59,7 +59,7 @@ body{
 	color: #8f9395;
 }
 
-.slide-container .titles a{
+.slide-container .titles a, .acord-btn{
     background: #74b7e5;
     text-transform: uppercase;
     border-radius: 2px;
@@ -160,9 +160,11 @@ body{
     box-shadow: 0px 0px 4px #666666;
 }
 
+
 @media (min-width: 900px){
 	.slide-container{display:block;}
 	.accord{display:none;}
+    .acord-btn{display:none;}
 
 }
 

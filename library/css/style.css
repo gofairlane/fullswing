@@ -1043,7 +1043,7 @@ body {
   vertical-align: top;
   color: #8f9395; }
 
-.slide-container .titles a {
+.slide-container .titles a, .acord-btn {
   background: #74b7e5;
   text-transform: uppercase;
   border-radius: 2px;
@@ -1053,7 +1053,7 @@ body {
   font-weight: bold;
   margin-top: 10px;
   display: inline-block; }
-  .slide-container .titles a:hover {
+  .slide-container .titles a:hover, .acord-btn:hover {
     color: #fff;
     background: #026cad; }
 
@@ -1133,6 +1133,9 @@ body {
     display: block; }
 
   .accord {
+    display: none; }
+
+  .acord-btn {
     display: none; } }
 .simpop {
   max-width: 500px;
