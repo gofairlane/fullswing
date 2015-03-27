@@ -307,3 +307,23 @@ social-post a {
     padding-right: 0em !important;
     width: 100% !important;
 }
+
+/*********************
+CONTACT US PAGE
+  *********************/
+
+ .contact-us {
+ 	margin-left:auto;
+ 	margin-right:auto;
+ 	width:90%;
+ 	}
+
+
+ .contact-us a {
+ 	color:$optional-link;
+ }
+
+ .contact-us a:hover {
+ 	color:$optional-hover;
+ }
+

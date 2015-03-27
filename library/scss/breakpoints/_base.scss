@@ -195,7 +195,7 @@ and more scalable.
 	border-bottom: 5px;
 	margin-right:5px;
 	margin-bottom:0px;
-	margin-top: -45px;
+	margin-top: -40px;
 
 	li {
 
@@ -203,7 +203,7 @@ and more scalable.
 			display: block;
 			//color: $white;
 			text-decoration: none;
-			padding: 0.25em 0.75em;
+			padding: 0.45em 0.75em;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -905,26 +905,17 @@ FOOTER STYLES
 }
 
 #logo {
-margin-top:10px;
+margin-top:20px;
 
 }
 
 
-@media (max-width: 481px){
-#logo {
-		margin-left:0;
-		margin-top: 20px;
-	}
-}
-
-
-@media (max-width: 481px){
 #logo img{
-
-width:60%;
-
+	width:200px;
+	margin-left:15px;
 }
-}
+
+
 
 
 
@@ -1226,3 +1217,15 @@ width:60%;
 .tp-bullets.tp-thumbs .bullet {
 	margin-left:5px !important;
 	}
+
+.subheading-dark h1 {
+    color: $black;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.subheading-light h1 {
+    color: $white;
+    padding-bottom:20px;
+    text-align: center;
+}

@@ -1379,6 +1379,20 @@ social-post a {
   width: 100% !important; }
 
 /*********************
+CONTACT US PAGE
+  *********************/
+.contact-us {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; }
+
+.contact-us a {
+  color: #74b7e5; }
+
+.contact-us a:hover {
+  color: #2689cd; }
+
+/*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
 We can break them up as much as we want or just keep them all in one.
@@ -2078,7 +2092,7 @@ and more scalable.
   border-bottom: 5px;
   margin-right: 5px;
   margin-bottom: 0px;
-  margin-top: -45px;
+  margin-top: -40px;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */ }
@@ -2093,7 +2107,7 @@ and more scalable.
     .nav li a {
       display: block;
       text-decoration: none;
-      padding: 0.25em 0.75em;
+      padding: 0.45em 0.75em;
       /*
       remember this is for mobile ONLY, so there's no need
       to even declare hover styles here, you can do it in
@@ -2454,15 +2468,12 @@ view.
   padding-left: 5%; }
 
 #logo {
-  margin-top: 10px; }
+  margin-top: 20px; }
 
-@media (max-width: 481px) {
-  #logo {
-    margin-left: 0;
-    margin-top: 20px; } }
-@media (max-width: 481px) {
-  #logo img {
-    width: 60%; } }
+#logo img {
+  width: 200px;
+  margin-left: 15px; }
+
 #content {
   margin-top: 0px; }
 
@@ -2681,6 +2692,16 @@ view.
 
 .tp-bullets.tp-thumbs .bullet {
   margin-left: 5px !important; }
+
+.subheading-dark h1 {
+  color: #323944;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.subheading-light h1 {
+  color: #fff;
+  padding-bottom: 20px;
+  text-align: center; }
 
 /*********************
 LARGER MOBILE DEVICES
