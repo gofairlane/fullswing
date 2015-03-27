@@ -932,22 +932,35 @@ width:60%;
 	margin-top: 0px;
 }
 
+@media (min-width:0px) and (max-width: 767px) {
+#home-parallax-section {
+	height:600px;
+	background-image: url('/wp-content/uploads/2015/03/kimmel-blur-mobile.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	}
+}
 
+@media (min-width:768px) and (max-width: 1024px) {
+#home-parallax-section {
+	height:600px;
+	background-image: url('/wp-content/uploads/2015/03/kimmel-blur-tablet.jpg');
+	background-size:100%;
+	background-repeat: no-repeat;
+	}
+}
 
+@media (min-width: 1025px){
 #home-parallax-section {
 	height:492px;
-	background-image: url('/wp-content/uploads/2015/03/video-background.jpg');
+	background-image: url('/wp-content/uploads/2015/03/kimmel-blur.jpg');
 	background-attachment: fixed;
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
-	font-size: 38px;
-	padding: 250px 50px 200px;
-	text-align: center;
-	color: #b0c06b;
-	
+	}
 }
 
 
@@ -960,7 +973,6 @@ width:60%;
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
-	font-size: 48px;
 	padding: 250px 0 200px;
 	text-align: center;
 	color: #b0c06b;

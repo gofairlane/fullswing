@@ -231,7 +231,7 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
 }
 
 .fly-4 h3 {
-	font-size:1.2em;
+	font-size:1em;
 	color:$white;
 	float:left;
 	margin-top:-1px;
@@ -254,7 +254,7 @@ SIM HOME PAGE - Section 5 - Flyover Gallery
 	padding-left:10px;
 	float:left;
 	line-height: .95em;
-	font-weight:100;
+	font-weight:400;
 	margin-top:0px;
 	}
 
@@ -268,10 +268,7 @@ VIDEOS PAGE
 
 .esg-grid * {
 }
-i {
-	font-size:1.5em !important;
-	color:$footer-link !important;
-		}
+
 
 [class^="eg-icon-"]::before, [class*=" eg-icon-"]::before {
 	margin-bottom:10px !important;

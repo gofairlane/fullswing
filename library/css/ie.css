@@ -387,6 +387,14 @@ mobile. Make sure to double check these!
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
 
+.video-box-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+  padding-top: 2em; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -445,5 +453,3 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
-
-/*# sourceMappingURL=ie.css.map */
