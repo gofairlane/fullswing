@@ -1134,14 +1134,26 @@ body {
 
   .accord {
     display: none; } }
-.sim-pop {
-  max-width: 400px;
-  padding: 2em; }
-  .sim-pop h3 {
-    font-size: 20px;
+.simpop {
+  max-width: 500px;
+  padding: 1em 2em; }
+  .simpop h1 {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc5e27;
+    text-transform: uppercase; }
+  .simpop h3 {
+    font-size: 18px;
     font-weight: bold; }
-  .sim-pop ul {
-    padding-left: 20px; }
+  .simpop ul {
+    padding-left: 0;
+    font-weight: bold; }
+    .simpop ul li {
+      padding-bottom: 10px; }
+      .simpop ul li span {
+        padding-left: 15px;
+        color: #74b7e5; }
 
 /******************************************************************
 Site Name: Full Swing
@@ -3135,3 +3147,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */

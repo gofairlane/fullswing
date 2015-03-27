@@ -166,16 +166,34 @@ body{
 
 }
 
-.sim-pop{
-    max-width: 400px;
-    padding: 2em;
+.simpop{
+    max-width: 500px;
+    padding: 1em 2em;
+
+    h1{
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #cc5e27;
+        text-transform: uppercase;
+    }
 
     h3{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
 
     ul{
-        padding-left: 20px;
+        padding-left: 0;
+        font-weight: bold;
+
+        li{
+            padding-bottom:10px;
+
+            span{
+                padding-left: 15px;
+                color: #74b7e5;
+            }
+        }
     }
 }
