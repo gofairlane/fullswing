@@ -140,3 +140,57 @@ Here is where we declare all of the styles for the widgets.
 	padding-top:.6em;
 	}
 
+/*********************
+ BOTTOM PAGE PARRALAX
+ 	location of widget is in page-custom.php
+  *********************/
+
+#video-box {
+	float:left;
+	margin-top:30px;
+	margin-bottom:30px;
+	width: 25%;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.video-box-1 {
+	margin-left:auto;
+	height:7em;
+	background-color: $btn-green;
+	width: 16em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.video-box-2 {
+	margin-left:auto;
+	margin-right:auto;
+	height:7em;
+	background-color: $btn-blue;
+	width: 16em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+.video-box-3 {
+	margin-right:auto;
+	height:7em;
+	background-color: $box-orange;
+	width: 16em;
+	padding: 1.7em 1.5em;
+	text-decoration: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+

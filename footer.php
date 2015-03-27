@@ -1,6 +1,8 @@
 			<footer class="above-footer">
 			<?php /* Widgetized sidebar */
-    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Call To Action Box') ) : ?><?php endif; ?>	
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Call To Action Box') ) : ?><?php endif; ?>
+
+    	
 			</footer>
 			</div>
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
@@ -11,7 +13,6 @@
 					<?php /* Widgetized sidebar */
     				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer 1 Section') ) : ?><?php endif; ?>
 
-    				
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved. <a href="#">Terms &amp; Conditions</a></p>
 

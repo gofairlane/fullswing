@@ -84,15 +84,15 @@
 
 						</main>
 				</div>
-
-				<footer class="article-footer">
-
 				
 
+				<footer class="article-footer">
+					
 				
 
 			</div>
-			
+			<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Parallax Section') ) : ?><?php endif; ?>
 
 
 <?php get_footer(); ?>
