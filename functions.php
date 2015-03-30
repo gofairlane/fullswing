@@ -375,12 +375,7 @@ function sk_enqueue_scripts() {
 
 }
 
-function load_fonts() {
-            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans');
-            wp_enqueue_style( 'googleFonts');
-        }
-    
-    add_action('wp_print_styles', 'load_fonts');
+
 
 /**
 * Creates sharethis shortcode

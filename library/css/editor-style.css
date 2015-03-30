@@ -346,6 +346,10 @@ body#tinymce.wp-editor {
   /* @include box-sizing(border-box); */
   /* NOTE: value of "padding-box" is only supported in Gecko. So
   probably best not to use it. I mean, were you going to anyway? */
+  /* Or directly:
+  $fonts: Kavoon, Wendy One, Bonbon;
+  */
+  @import url(http://fonts.googleapis.com/css?family=Roboto|Hind|Roboto+Condensed);
   width: 731px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -575,6 +579,14 @@ body#tinymce.wp-editor {
     -ms-font-feature-settings: "liga", "dlig";
     -o-font-feature-settings: "liga", "dlig";
     font-feature-settings: "liga", "dlig"; }
+  body#tinymce.wp-editor .example {
+    font-size: 3em; }
+  body#tinymce.wp-editor .first {
+    font-family: Roboto; }
+  body#tinymce.wp-editor .second {
+    font-family: Hind; }
+  body#tinymce.wp-editor .third {
+    font-family: Roboto Condensed; }
   body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
     color: #fff;
     /* on hover */

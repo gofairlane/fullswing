@@ -27,6 +27,7 @@ the whole project.
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+@import url(http://fonts.googleapis.com/css?family=Roboto|Hind|Roboto+Condensed);
 article,
 aside,
 details,
@@ -612,6 +613,21 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
+/* Or directly:
+$fonts: Kavoon, Wendy One, Bonbon;
+*/
+.example {
+  font-size: 3em; }
+
+.first {
+  font-family: Roboto; }
+
+.second {
+  font-family: Hind; }
+
+.third {
+  font-family: Roboto Condensed; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -1170,11 +1186,12 @@ Here is where we declare all of the styles for the page styles.
 /*********************
  HOME PAGE - Section 1 - Tag Line
   *********************/
-.home-tag-line {
-  font-size: 38px;
-  margin-left: 33%;
-  padding-top: 35%;
-  color: #fff; }
+.home-tag-line h1 {
+  margin-left: 53%;
+  padding-top: 45%;
+  line-height: .95em;
+  color: #fff;
+  text-align: center; }
 
 /*********************
  HOME PAGE - Section 2 - World Leader
@@ -1854,8 +1871,9 @@ select {
   display: block; }
 
 .top-nav {
+  font-family: Roboto Condensed;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   /* turned off until after launch
   	>li:nth-child(8){
@@ -2017,13 +2035,16 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: Open Sans;
+  font-family: Roboto;
   font-size: .8em;
   line-height: 1.3;
   color: #797e83;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+p {
+  font-family: Roboto; }
 
 html, body {
   overflow-x: hidden;
@@ -2098,6 +2119,7 @@ a, a:visited {
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: Hind;
   text-rendering: optimizelegibility;
   font-weight: 400;
   color: #323b46;

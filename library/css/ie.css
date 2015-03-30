@@ -89,6 +89,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto|Hind|Roboto+Condensed);
 p {
   -ms-word-wrap: break-word;
   word-break: break-word;
@@ -147,6 +148,21 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
+/* Or directly:
+$fonts: Kavoon, Wendy One, Bonbon;
+*/
+.example {
+  font-size: 3em; }
+
+.first {
+  font-family: Roboto; }
+
+.second {
+  font-family: Hind; }
+
+.third {
+  font-family: Roboto Condensed; }
+
 /******************************************************************
 Site Name:
 Author:

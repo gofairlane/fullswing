@@ -12,11 +12,12 @@ Here is where we declare all of the styles for the page styles.
  HOME PAGE - Section 1 - Tag Line
   *********************/
 
-.home-tag-line {
-	font-size: 38px;
-	margin-left:33%;
-	padding-top:35%;
+.home-tag-line h1{
+	margin-left:53%;
+	padding-top:45%;
+	line-height: .95em;
 	color: $white;
+	text-align:center;
 }
 
 
