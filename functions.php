@@ -375,7 +375,7 @@ function sk_enqueue_scripts() {
 
 }
 
-
+add_filter('wp_nav_menu_items', 'do_shortcode');
 
 /**
 * Creates sharethis shortcode

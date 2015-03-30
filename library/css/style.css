@@ -946,8 +946,9 @@ Here is where we declare all of the styles for the widgets.
 	breakpoint for 4 col nav is in _481up.scss
   *********************/
 #footer-1-section {
+  float: left;
   margin-top: 30px;
-  width: 100%; }
+  width: 25%; }
 
 #footer-1-section a {
   color: #bfc3c5;
@@ -956,19 +957,17 @@ Here is where we declare all of the styles for the widgets.
   font-size: .9em;
   font-weight: 900; }
 
-#social-footer h3 {
+.social-footer h3 {
   color: #8b8f91;
   float: clear;
-  font-size: 1em;
-  margin-bottom: -5px;
-  margin-top: 0px; }
+  font-size: 19px;
+  margin-bottom: 2px;
+  margin-top: -8px; }
 
-#footer-1-section i {
-  float: left;
-  font-size: 1.5em;
-  color: #bfc3c5;
-  padding-right: .5em;
-  padding-top: .6em; }
+.social-footer a i {
+  color: #676a6c;
+  font-size: 20px;
+  padding-right: 8px; }
 
 /*********************
  BOTTOM PAGE PARRALAX
@@ -1907,10 +1906,11 @@ select {
     .top-nav .sub-menu > li a {
       border: 0;
       width: 150px; }
-  .top-nav i {
+  .top-nav a i {
     font-size: 20px;
-    line-height: 50px;
-    padding: 0 4px; }
+    color: #676a6c;
+    line-height: 18px;
+    margin: -7px; }
 
 .nav li ul.sub-menu li a, .nav li ul.children li a {
   padding-left: 0px; }
@@ -2633,25 +2633,6 @@ view.
   font-size: 1.2em;
   text-align: center;
   padding-bottom: 30px; }
-
-#footer-1-section {
-  float: left;
-  margin-top: 30px;
-  width: 25%; }
-
-#footer-1-section a {
-  color: #bfc3c5;
-  text-transform: uppercase;
-  font-wight: 300;
-  font-size: .9em;
-  font-weight: 900; }
-
-#footer-1-section h3 {
-  color: #8b8f91;
-  float: clear;
-  font-size: 24px;
-  margin-bottom: -5px;
-  margin-top: -8px; }
 
 .section-3 p {
   font-size: .8em;
