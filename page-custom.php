@@ -91,8 +91,13 @@
 				
 
 			</div>
+			
 			<?php /* Widgetized sidebar */
     				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Parallax Section') ) : ?><?php endif; ?>
+    		<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sim Parallax Section') ) : ?><?php endif; ?>
+    		<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Above Bottom Parallax Section') ) : ?><?php endif; ?>
 
 
 <?php get_footer(); ?>

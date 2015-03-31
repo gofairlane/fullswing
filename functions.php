@@ -240,6 +240,29 @@ if ( function_exists('register_sidebar') ){
 ));
 }
 
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'id' => 'sim-parallax-section',
+        'name' => __( 'Sim Parallax Section', 'bonestheme' ),
+        'description' => __( 'This is the parallax sim section', 'bonestheme' ),
+        'before_widget' => '<div id="sim-parallax-section">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
+
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'id' => 'above-bottom-parallax-section',
+        'name' => __( 'Above Bottom Parallax Section', 'bonestheme' ),
+        'description' => __( 'This is above the bottom parallax section', 'bonestheme' ),
+        'before_widget' => '<div id="above-bottom-parallax-section">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
 
 if ( function_exists('register_sidebar') ){
     register_sidebar(array(
