@@ -214,30 +214,50 @@ ABOVE BOTTOM PARALLAX
     color: $black;
     padding-top:40px;
     text-align: center;
-    width:45%;
+    width:65%;
+}
+@media (min-width:0px) and (max-width: 460px) {
+#subheading-sim h2 {
+	margin-left:auto;
+	margin-right:auto;
+    color: $black;
+    padding-top:40px;
+    text-align: center;
+    width:85%;
+    font-size:1.2em;
+}
+}
+
+@media (min-width:461px) and (max-width: 767px) {
+#subheading-sim h2 {
+	margin-left:auto;
+	margin-right:auto;
+    color: $black;
+    padding-top:40px;
+    text-align: center;
+    width:85%;
+    font-size:1.5em;
+}
 }
 
 @media (min-width:0px) and (max-width: 767px) {
 #sim-parallax-section {
-	height:100%;
-	background-color:$white;
-	background-size:100%;
-	padding-bottom:10px;
+	background-image: url('/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg');
+	padding-bottom:20px;
+	background-repeat: no-repeat;
 	}
 }
 
 @media (min-width:768px) and (max-width: 1024px) {
 #sim-parallax-section {
-	height:856px;
+	height:886px;
 	background-image: url('/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg');
-	background-size:100%;
 	background-repeat: no-repeat;
 	}
 }
 
 @media (min-width: 1025px){
 #sim-parallax-section {
-	height:800px;
 	background-image: url('/wp-content/uploads/2015/03/home-simulator-video-background.jpg');
 	background-attachment: fixed;
 	background-position: 0px 0px;
@@ -245,6 +265,7 @@ ABOVE BOTTOM PARALLAX
 	-webkit-background-size: cover;
 	-moz-background-size:    cover;
 	background-size:         cover;
+	padding-bottom:20px;
 	}
 }
 
@@ -265,22 +286,51 @@ ABOVE BOTTOM PARALLAX
 }
 
 .fly-group {
-  	display:inline-block;
   	padding:2em;
-  	font-size:.9em;
-  	width:100%;
 	
 }
-
-
-
+@media (min-width:0px) and (max-width: 481px) {
 .fly-4 {
-	float:left;
+	display:inline-block;
+	margin-top:30px;
+	width:250px;
+	height:50px;
+	margin-left:15px;
+
+}
+}
+
+@media (min-width:482px) and (max-width: 767px) {
+.fly-4 {
+	display:inline-block;
+	margin-top:30px;
+	width:40%;
+	height:50px;
+	margin-left:30px;
+
+}
+}
+
+@media (min-width:768px) and (max-width: 1030px) {
+.fly-4 {
+	display:inline-block;
+	margin-top:30px;
+	width:250px;
+	height:50px;
+	margin-left:30px;
+
+}
+}
+
+@media (min-width:1031px) {
+.fly-4 {
+	display:inline-block;
 	margin-top:30px;
 	width:250px;
 	height:50px;
 	margin-left:40px;
 
+}
 }
 
 .fly-4 h3 {
