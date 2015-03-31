@@ -1025,32 +1025,88 @@ ABOVE BOTTOM PARALLAX
   BOTTOM SIM PARALLAX
   *********************/
 #subheading-sim h2 {
+  margin-left: auto;
+  margin-right: auto;
   color: #323944;
-  padding-top: 20px;
-  text-align: center; }
+  padding-top: 40px;
+  text-align: center;
+  width: 45%; }
 
 @media (min-width: 0px) and (max-width: 767px) {
   #sim-parallax-section {
-    height: 600px;
-    background-image: url("/wp-content/uploads/2015/03/kimmel-blur-mobile.jpg");
+    height: 100%;
+    background-color: #fff;
     background-size: 100%;
-    background-repeat: no-repeat; } }
+    padding-bottom: 10px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #sim-parallax-section {
-    height: 600px;
-    background-image: url("/wp-content/uploads/2015/03/kimmel-blur-tablet.jpg");
+    height: 856px;
+    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg");
     background-size: 100%;
     background-repeat: no-repeat; } }
 @media (min-width: 1025px) {
   #sim-parallax-section {
-    height: 492px;
-    background-image: url("/wp-content/uploads/2015/03/kimmel-blur.jpg");
+    height: 800px;
+    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background.jpg");
     background-attachment: fixed;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; } }
+.fly-over-header h2 {
+  text-align: center;
+  color: #fff;
+  width: 70%; }
+
+#wrap-all {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.fly-group {
+  display: inline-block;
+  padding: 2em;
+  font-size: .9em;
+  width: 100%; }
+
+.fly-4 {
+  float: left;
+  margin-top: 30px;
+  width: 250px;
+  height: 50px;
+  margin-left: 40px; }
+
+.fly-4 h3 {
+  font-size: 1em;
+  color: #fff;
+  float: left;
+  margin-top: -1px;
+  margin-left: 10px; }
+
+.fly-4 h3 i {
+  font-size: 1.9em;
+  width: 10px;
+  height: 10px;
+  background: #323944;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: .3em; }
+
+.fly-4 h4 {
+  width: 200px;
+  word-wrap: break-word;
+  color: #323944;
+  padding-left: 10px;
+  float: left;
+  line-height: .95em;
+  font-weight: 400;
+  margin-top: 0px; }
+
 body {
   background: #fff; }
 
@@ -1375,54 +1431,6 @@ Here is where we declare all of the styles for the page styles.
 
 div.nchgrid-item.nch-lightbox-vimeo a .nchgrid-caption, div.ts-hover-vimeo .details {
   background-image: none !important; }
-
-/*********************
-SIM HOME PAGE - Section 5 - Flyover Gallery
-  *********************/
-.fly-over-header h2 {
-  text-align: center;
-  color: #fff;
-  width: 70%; }
-
-.fly-group {
-  padding: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.4);
-  height: 100%;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
-
-.fly-4 {
-  float: left;
-  margin-top: 30px;
-  width: 100%; }
-
-.fly-4 h3 {
-  font-size: 1em;
-  color: #fff;
-  float: left;
-  margin-top: -1px;
-  margin-left: 10px; }
-
-.fly-4 h3 i {
-  font-size: 1.9em;
-  width: 10px;
-  height: 10px;
-  background: #323944;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  padding: .3em; }
-
-.fly-4 h4 {
-  color: #323944;
-  padding-left: 10px;
-  float: left;
-  line-height: .95em;
-  font-weight: 400;
-  margin-top: 0px; }
 
 /*********************
 VIDEOS PAGE
