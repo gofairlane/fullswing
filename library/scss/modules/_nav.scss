@@ -31,6 +31,7 @@
 	>li:nth-child(2){
 
 	}
+
 /* turned off until after launch
 	>li:nth-child(8){
 		margin-right: 15px;
@@ -106,7 +107,7 @@
 		>li{
 			padding:4px 0;
 			font-weight:bold;
-			font-size: 16px;
+			font-size: 15px;
 			text-transform: uppercase;
 
 			.sub-menu{
@@ -133,6 +134,7 @@
 			}
 		}
 
+/* turned off until after launch. Remember to delete (8) from social
 		>li:nth-child(8){
 			background: #666;
 			border-radius: 4px;
@@ -141,7 +143,8 @@
 			padding:10px 0;
 			font-size:14px;
 		}
-
+*/
+		>li:nth-child(8),
 		>li:nth-child(9),
 		>li:nth-child(10),
 		>li:nth-child(11),
@@ -154,6 +157,7 @@
 
 	}
 }
+
 
 #logo {
 	margin-left:0px;

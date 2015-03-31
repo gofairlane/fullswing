@@ -894,7 +894,7 @@ Here is where we declare all of the styles for the widgets.
   height: 7em;
   background-color: #b0c06b;
   width: 16em;
-  padding: 1.7em 1.5em;
+  padding: 1.4em 1.5em;
   text-decoration: none;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -905,7 +905,7 @@ Here is where we declare all of the styles for the widgets.
   height: 7em;
   background-color: #74b7e5;
   width: 16em;
-  padding: 1.7em 1.5em;
+  padding: 1.4em 1.5em;
   text-decoration: none;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -915,7 +915,7 @@ Here is where we declare all of the styles for the widgets.
   height: 7em;
   background-color: #cc5e27;
   width: 16em;
-  padding: 1.7em 1.5em;
+  padding: 1.4em 1.5em;
   text-decoration: none;
   -moz-border-radius: 4px;
   border-radius: 4px; }
@@ -923,15 +923,19 @@ Here is where we declare all of the styles for the widgets.
 .q-a-box a, .how-work-box a, .contact-sales-box a {
   text-transform: uppercase;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 900; }
 
 .q-a-box p, .how-work-box p, .contact-sales-box p {
-  font-size: .8em;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  font-size: 1em;
   letter-spacing: -0.045em;
   color: #323944;
   font-weight: 300;
-  line-height: .95em; }
+  line-height: .95em;
+  margin-top: 8px; }
 
 @media (max-width: 481px) {
   #call-to-action-box {
@@ -973,7 +977,6 @@ Here is where we declare all of the styles for the widgets.
 ABOVE BOTTOM PARALLAX
   *********************/
 #above-bottom-parallax-section {
-  height: 600px;
   background-color: #000;
   background-size: 100%;
   background-repeat: no-repeat; }
@@ -1030,7 +1033,7 @@ ABOVE BOTTOM PARALLAX
   color: #323944;
   padding-top: 40px;
   text-align: center;
-  width: 65%; }
+  width: 55%; }
 
 @media (min-width: 0px) and (max-width: 460px) {
   #subheading-sim h2 {
@@ -1070,11 +1073,16 @@ ABOVE BOTTOM PARALLAX
     -moz-background-size: cover;
     background-size: cover;
     padding-bottom: 20px; } }
-.fly-over-header h2 {
-  text-align: center;
-  color: #fff;
-  width: 70%; }
-
+@media (min-width: 601px) {
+  .fly-over-header h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: -10px;
+    margin-top: 40px; } }
+@media (min-width: 0px) and (max-width: 600px) {
+  .fly-over-header h2 {
+    text-align: center;
+    color: #fff; } }
 #wrap-all {
   width: 90%;
   height: 90%;
@@ -1129,7 +1137,7 @@ ABOVE BOTTOM PARALLAX
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  padding: .3em; }
+  padding: .3em .3em .2em .3em; }
 
 .fly-4 h4 {
   width: 200px;
@@ -2016,11 +2024,21 @@ select {
   .mobile-nav.mobile-open {
     right: 0px; }
   .mobile-nav .mobile-side-nav {
-    margin: 2em; }
+    margin: 2em;
+    /* turned off until after launch. Remember to delete (8) from social
+    		>li:nth-child(8){
+    			background: #666;
+    			border-radius: 4px;
+    			margin-top:1em;
+    			text-align: center;
+    			padding:10px 0;
+    			font-size:14px;
+    		}
+    */ }
     .mobile-nav .mobile-side-nav > li {
       padding: 4px 0;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 15px;
       text-transform: uppercase; }
       .mobile-nav .mobile-side-nav > li .sub-menu {
         border-bottom: 1px solid rgba(108, 111, 113, 0.5);
@@ -2035,13 +2053,7 @@ select {
       font-size: 13px;
       font-weight: normal;
       color: #6c6f71; }
-    .mobile-nav .mobile-side-nav > li:nth-child(8) {
-      background: #666;
-      border-radius: 4px;
-      margin-top: 1em;
-      text-align: center;
-      padding: 10px 0;
-      font-size: 14px; }
+    .mobile-nav .mobile-side-nav > li:nth-child(8),
     .mobile-nav .mobile-side-nav > li:nth-child(9),
     .mobile-nav .mobile-side-nav > li:nth-child(10),
     .mobile-nav .mobile-side-nav > li:nth-child(11),
