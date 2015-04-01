@@ -148,10 +148,63 @@ ABOVE BOTTOM PARALLAX
   *********************/
 
 #above-bottom-parallax-section {
-	background-color:#000;
-	background-size:100%;
+	height:550px;
+	background-color:$white;
 	background-repeat: no-repeat;
 	}
+
+.widget-container {
+    position: relative;
+    width: 100%;
+}
+
+.box-1 {
+    padding-top: 2%; /* forces 1:1 aspect ratio */
+}
+
+.box-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.box-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.box-container {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#swing-video {
+	position:absolute;
+	margin-top:-250px;
+	margin-left:50%;
+}
+
+.swing-cat{
+	margin-top:10px;
+}
+
+.swing-cat img {
+	height:80%;
+	margin-right:320px;
+}
+
+.swing-cat p {
+	width:80%;
+	color:$black;
+}
+
 
 /*********************
  BOTTOM PAGE PARRALAX
@@ -206,7 +259,6 @@ ABOVE BOTTOM PARALLAX
 }
 
 
-
 /*********************
   BOTTOM SIM PARALLAX
   *********************/
@@ -219,6 +271,16 @@ ABOVE BOTTOM PARALLAX
     text-align: center;
     width:55%;
 }
+
+#subheading-bottom-sim h1 {
+	margin-left:auto;
+	margin-right:auto;
+    color: $black;
+    padding-top:40px;
+    text-align: center;
+    width:55%;
+}
+
 @media (min-width:0px) and (max-width: 460px) {
 #subheading-sim h2 {
 	margin-left:auto;
