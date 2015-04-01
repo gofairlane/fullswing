@@ -17,6 +17,17 @@
 
 			<div id="content">
 			
+<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Top Parallax Section') ) : ?><?php endif; ?>
+
+
+<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Home Sim Top Parallax Section') ) : ?><?php endif; ?>
+
+
+<?php /* Widgetized sidebar */
+    				if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Biz Sim Top Parallax Section') ) : ?><?php endif; ?>        
+
 
     		<div id="inner-content" class="wrap cf">
 				

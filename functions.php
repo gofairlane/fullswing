@@ -232,8 +232,44 @@ if ( function_exists('register_sidebar') ){
     register_sidebar(array(
         'id' => 'home-parallax-section',
         'name' => __( 'Home Parallax Section', 'bonestheme' ),
-        'description' => __( 'This is the parallax home section', 'bonestheme' ),
+        'description' => __( 'This is the parallax bottom home section', 'bonestheme' ),
         'before_widget' => '<div id="home-parallax-section">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
+
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'id' => 'home-top-parallax-section',
+        'name' => __( 'Home Top Parallax Section', 'bonestheme' ),
+        'description' => __( 'This is the parallax top home section', 'bonestheme' ),
+        'before_widget' => '<div id="home-top-parallax-section">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
+
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'id' => 'home-sim-top-parallax-section',
+        'name' => __( 'Home Sim Top Parallax Section', 'bonestheme' ),
+        'description' => __( 'This is the parallax top home section', 'bonestheme' ),
+        'before_widget' => '<div id="home-sim-top-parallax-section">',
+        'after_widget' => '</div>',
+        'before_title' => '',
+        'after_title' => '',
+));
+}
+
+if ( function_exists('register_sidebar') ){
+    register_sidebar(array(
+        'id' => 'biz-sim-top-parallax-section',
+        'name' => __( 'Biz Sim Top Parallax Section', 'bonestheme' ),
+        'description' => __( 'This is the parallax biz top section', 'bonestheme' ),
+        'before_widget' => '<div id="biz-sim-top-parallax-section">',
         'after_widget' => '</div>',
         'before_title' => '',
         'after_title' => '',
