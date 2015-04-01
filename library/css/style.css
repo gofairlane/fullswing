@@ -1261,29 +1261,15 @@ ABOVE BOTTOM PARALLAX
     padding-top: 70px;
     margin-left: 383px;
     color: #fff; } }
-@media (min-width: 1025px) {
-  #home-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5.jpg");
-    height: 1000px;
-    background-attachment: fixed;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover; } }
+@media (max-width: 1024px) {
+  .home-top-parallax {
+    display: none; } }
 @media (min-width: 1025px) {
   #tag-line h1 {
-    margin-top: 0px;
-    font-size: 2.5em;
-    padding-top: 400px;
-    margin-left: 580px;
-    color: #fff; }
-
+    display: none; } }
+@media (min-width: 1025px) {
   #jordan-pga h3 {
-    font-size: 1.5em;
-    padding-top: 150px;
-    margin-left: 523px;
-    color: #fff; } }
+    display: none; } }
 /*********************
   HOME SIM TOP PARALLAX
   *********************/
@@ -1323,23 +1309,12 @@ ABOVE BOTTOM PARALLAX
     padding-top: 180px;
     text-align: center;
     color: #fff; } }
-@media (min-width: 1025px) {
-  #home-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/04/home-simulator-top.jpg");
-    height: 1000px;
-    background-attachment: fixed;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover; } }
+@media (max-width: 1024px) {
+  .home-sim-parallax {
+    display: none; } }
 @media (min-width: 1025px) {
   #sim-home-title h1 {
-    margin-top: 0px;
-    font-size: 2.5em;
-    padding-top: 180px;
-    text-align: center;
-    color: #fff; } }
+    display: none; } }
 /*********************
   BIZ SIM TOP PARALLAX
   *********************/
@@ -1379,23 +1354,27 @@ ABOVE BOTTOM PARALLAX
     padding-top: 180px;
     text-align: center;
     color: #fff; } }
+@media (max-width: 1024px) {
+  .biz-sim-parallax {
+    display: none; } }
 @media (min-width: 1025px) {
-  #biz-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top.jpg");
-    height: 1000px;
-    background-attachment: fixed;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover; } }
-@media (min-width: 1025px) {
-  #biz-home-title h1 {
-    margin-top: 0px;
-    font-size: 2.5em;
-    padding-top: 180px;
-    text-align: center;
-    color: #fff; } }
+  #sim-biz-title h1 {
+    display: none; } }
+.sim-section-title h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 250px; }
+
+.home-section-title h1 {
+  margin-top: 380px;
+  margin-left: 350px;
+  color: #fff; }
+
+.home-section-title h3 {
+  margin-top: 14%;
+  margin-left: 350px;
+  color: #fff; }
+
 body {
   background: #fff; }
 
@@ -1600,7 +1579,7 @@ Here is where we declare all of the styles for the page styles.
 .column-4 {
   float: left;
   margin-top: 30px;
-  width: 100%; }
+  width: 200px; }
 
 .column-4 h3 {
   font-size: 1.2em;
