@@ -1204,15 +1204,63 @@ ABOVE BOTTOM PARALLAX
 /*********************
   HOME TOP PARALLAX
   *********************/
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 480px) {
   #home-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg");
+    height: 349px;
+    background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5-mobile-583.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 0px) and (max-width: 480px) {
+  #tag-line h1 {
+    margin-top: 0px;
+    font-size: 1.4em;
+    padding-top: 200px;
+    margin-left: 150px;
+    width: 50%;
+    color: #fff; }
+
+  #jordan-pga h3 {
+    font-size: .9em;
+    padding-top: 30px;
+    margin-left: 160px;
+    color: #fff; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #home-top-parallax-section {
+    height: 456px;
+    background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5-mobile.jpg");
+    background-repeat: no-repeat; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #tag-line h1 {
+    margin-top: 0px;
+    font-size: 1.6em;
+    padding-top: 260px;
+    margin-left: 240px;
+    width: 45%;
+    color: #fff; }
+
+  #jordan-pga h3 {
+    font-size: 1em;
+    padding-top: 50px;
+    margin-left: 243px;
+    color: #fff; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #home-top-parallax-section {
-    height: 886px;
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg");
+    height: 539px;
+    background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5-tablet.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #tag-line h1 {
+    margin-top: 0px;
+    font-size: 2em;
+    padding-top: 300px;
+    margin-left: 380px;
+    width: 33%;
+    color: #fff; }
+
+  #jordan-pga h3 {
+    font-size: 1em;
+    padding-top: 70px;
+    margin-left: 383px;
+    color: #fff; } }
 @media (min-width: 1025px) {
   #home-top-parallax-section {
     background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5.jpg");
@@ -1223,49 +1271,131 @@ ABOVE BOTTOM PARALLAX
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; } }
+@media (min-width: 1025px) {
+  #tag-line h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+    padding-top: 400px;
+    margin-left: 580px;
+    color: #fff; }
+
+  #jordan-pga h3 {
+    font-size: 1.5em;
+    padding-top: 150px;
+    margin-left: 523px;
+    color: #fff; } }
 /*********************
   HOME SIM TOP PARALLAX
   *********************/
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 480px) {
   #home-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg");
+    height: 456px;
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-mobile.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 0px) and (max-width: 480px) {
+  #sim-home-title h1 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #home-sim-top-parallax-section {
+    height: 456px;
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-mobile.jpg");
+    background-repeat: no-repeat; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #sim-home-title h1 {
+    margin-top: 0px;
+    font-size: 1.7em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #home-sim-top-parallax-section {
-    height: 886px;
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg");
+    height: 539px;
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-tablet.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sim-home-title h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 @media (min-width: 1025px) {
   #home-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background.jpg");
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top.jpg");
+    height: 1000px;
     background-attachment: fixed;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; } }
+@media (min-width: 1025px) {
+  #sim-home-title h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 /*********************
   BIZ SIM TOP PARALLAX
   *********************/
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 480px) {
   #biz-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg");
-    padding-bottom: 20px;
+    height: 456px;
+    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-mobile.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 0px) and (max-width: 480px) {
+  #sim-biz-title h1 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #biz-sim-top-parallax-section {
+    height: 456px;
+    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-mobile.jpg");
+    background-repeat: no-repeat; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #sim-biz-title h1 {
+    margin-top: 0px;
+    font-size: 1.7em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #biz-sim-top-parallax-section {
-    height: 886px;
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg");
+    height: 539px;
+    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-tablet.jpg");
     background-repeat: no-repeat; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sim-biz-title h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 @media (min-width: 1025px) {
   #biz-sim-top-parallax-section {
-    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background.jpg");
+    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top.jpg");
+    height: 1000px;
     background-attachment: fixed;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; } }
+@media (min-width: 1025px) {
+  #biz-home-title h1 {
+    margin-top: 0px;
+    font-size: 2.5em;
+    padding-top: 180px;
+    text-align: center;
+    color: #fff; } }
 body {
   background: #fff; }
 
