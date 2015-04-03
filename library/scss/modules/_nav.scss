@@ -14,6 +14,10 @@
 
 // Top Nav Styles
 
+#logo .current-menu-parent > a{
+	margin-right:10px;
+}
+
 .top-nav{
 	font-family: Roboto Condensed;
 	font-size: 14px;
@@ -48,6 +52,18 @@
 	}
 */
 
+	.current-menu-parent > a{
+
+		background: transparent url('/wp-content/uploads/2015/04/nav_arrow.png') center right no-repeat;
+		cursor: default;
+		padding-right: 25px;
+		margin-right: 10px;
+
+		&:hover{
+			background: transparent url('/wp-content/uploads/2015/04/nav_arrow_over.png') center right no-repeat;
+		}
+	}
+
 	.sub-menu{
 		background: #414344;
 		color: #fff;
@@ -75,7 +91,7 @@
 }
 
 .nav li ul.sub-menu li a, .nav li ul.children li a{
-	padding-left:0px;
+	padding-left: 10px;
 }
 
 

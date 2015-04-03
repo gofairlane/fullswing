@@ -69,11 +69,12 @@ NAVIGATION STYLES
 		*/
 		ul.sub-menu,
 		ul.children {
-			margin-top: -10px;
+			margin-top: -21px;
 			border-top: 0;
 			position: absolute;
 			visibility: hidden;
 			z-index: 8999;
+			right: 10px;
 
 			li {
 

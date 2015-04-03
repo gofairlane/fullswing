@@ -139,25 +139,25 @@ jQuery(document).ready(function($) {
     });            
        
 //Set Up Slider Click Events.
-    $( '#orig' ).click(function() {
-        $('.draggable').css('left', '0px');
+    $( '.biz-orig' ).click(function() {
+        $('.draggable').css('left', '202px');
         hideElements();
         $('.tle-orig a').show();
         $('.tle-orig').addClass('active');
         $('.detail-orig').fadeIn();
     });
     
-    $( '#elite' ).click(function() {
-        $('.draggable').css('left', '202px');
+    $( '.biz-elite' ).click(function() {
+        $('.draggable').css('left', '402px');
         hideElements();
         $('.tle-elite a').show();
         $('.tle-elite').addClass('active');
         $('.detail-elite').fadeIn();
     });
     
-    $( '#wide' ).click(function() {
+    $( '.biz-wide' ).click(function() {
         //alert('clock');
-        $('.draggable').css('left', '402px');
+        $('.draggable').css('left', '602px');
         hideElements();
         $('.tle-wide a').show();
         $('.tle-wide').addClass('active');
@@ -165,13 +165,38 @@ jQuery(document).ready(function($) {
     });
 
 
-    $( '#sport' ).click(function() {
+    $( '.biz-sport' ).click(function() {
         //alert('clock');
-        $('.draggable').css('left', '602px');
+        $('.draggable').css('left', '0px');
         hideElements();
         $('.tle-sport a').show();
         $('.tle-sport').addClass('active');
         $('.detail-sport').fadeIn();
+    });
+
+    $( '.hm-orig' ).click(function() {
+        $('.draggable').css('left', '0px');
+        hideElements();
+        $('.tle-orig a').show();
+        $('.tle-orig').addClass('active');
+        $('.detail-orig').fadeIn();
+    });
+    
+    $( '.hm-elite' ).click(function() {
+        $('.draggable').css('left', '202px');
+        hideElements();
+        $('.tle-elite a').show();
+        $('.tle-elite').addClass('active');
+        $('.detail-elite').fadeIn();
+    });
+    
+    $( '.hm-wide' ).click(function() {
+        //alert('clock');
+        $('.draggable').css('left', '402px');
+        hideElements();
+        $('.tle-wide a').show();
+        $('.tle-wide').addClass('active');
+        $('.detail-wide').fadeIn();
     });
             
 //setup draggable

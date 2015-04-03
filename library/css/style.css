@@ -1407,6 +1407,39 @@ body {
   background: transparent url("/wp-content/uploads/2015/03/dot_bar.png") center center no-repeat;
   margin: 10px auto; }
 
+.slide-container .slide.homesim {
+  position: relative;
+  display: block;
+  width: 456px;
+  height: 55px;
+  background: transparent url("/wp-content/uploads/2015/04/dot_bar_home.png") center center no-repeat;
+  margin: 10px auto; }
+
+.entry-content .sim-content p {
+  margin: 20px auto 0 auto;
+  max-width: 580px; }
+
+.biz-sport {
+  left: 0px; }
+
+.biz-orig {
+  left: 201px; }
+
+.biz-elite {
+  left: 402px; }
+
+.biz-wide {
+  left: 602px; }
+
+.hm-orig {
+  left: 0px; }
+
+.hm-elite {
+  left: 201px; }
+
+.hm-wide {
+  left: 402px; }
+
 .slide-container .titles {
   font-size: 14px;
   padding: 0;
@@ -1477,18 +1510,6 @@ body {
   cursor: hand;
   cursor: pointer;
   background: transparent; }
-
-#orig {
-  left: 0px; }
-
-#elite {
-  left: 201px; }
-
-#wide {
-  left: 402px; }
-
-#sport {
-  left: 602px; }
 
 .draggable {
   width: 52px;
@@ -2184,6 +2205,9 @@ select {
 .nav.top-nav {
   display: block; }
 
+#logo .current-menu-parent > a {
+  margin-right: 10px; }
+
 .top-nav {
   font-family: Roboto Condensed;
   font-size: 14px;
@@ -2209,6 +2233,13 @@ select {
     .top-nav > li a:hover {
       color: #74b7e5;
       text-decoration: none; }
+  .top-nav .current-menu-parent > a {
+    background: transparent url("/wp-content/uploads/2015/04/nav_arrow.png") center right no-repeat;
+    cursor: default;
+    padding-right: 25px;
+    margin-right: 10px; }
+    .top-nav .current-menu-parent > a:hover {
+      background: transparent url("/wp-content/uploads/2015/04/nav_arrow_over.png") center right no-repeat; }
   .top-nav .sub-menu {
     background: #414344;
     color: #fff;
@@ -2228,7 +2259,7 @@ select {
     margin: -7px; }
 
 .nav li ul.sub-menu li a, .nav li ul.children li a {
-  padding-left: 0px; }
+  padding-left: 10px; }
 
 .mobile-nav {
   background: #000;
@@ -3245,11 +3276,12 @@ you can add resource intensive styles.
         */ }
       .nav li ul.sub-menu,
       .nav li ul.children {
-        margin-top: -10px;
+        margin-top: -21px;
         border-top: 0;
         position: absolute;
         visibility: hidden;
         z-index: 8999;
+        right: 10px;
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li,
         .nav li ul.children li {
@@ -3522,3 +3554,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */
