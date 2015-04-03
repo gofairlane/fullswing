@@ -1246,7 +1246,9 @@ ABOVE BOTTOM PARALLAX
   #home-top-parallax-section {
     height: 539px;
     background-image: url("/wp-content/uploads/2015/04/jrdan-home-page-v5-tablet.jpg");
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat;
+    background-position: fixed;
+    bacground-size: 100%; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #tag-line h1 {
     margin-top: 0px;
@@ -1318,48 +1320,6 @@ ABOVE BOTTOM PARALLAX
 /*********************
   BIZ SIM TOP PARALLAX
   *********************/
-@media (min-width: 0px) and (max-width: 480px) {
-  #biz-sim-top-parallax-section {
-    height: 456px;
-    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-mobile.jpg");
-    background-repeat: no-repeat; } }
-@media (min-width: 0px) and (max-width: 480px) {
-  #sim-biz-title h1 {
-    margin-top: 0px;
-    font-size: 1.5em;
-    padding-top: 180px;
-    text-align: center;
-    color: #fff; } }
-@media (min-width: 481px) and (max-width: 767px) {
-  #biz-sim-top-parallax-section {
-    height: 456px;
-    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-mobile.jpg");
-    background-repeat: no-repeat; } }
-@media (min-width: 481px) and (max-width: 767px) {
-  #sim-biz-title h1 {
-    margin-top: 0px;
-    font-size: 1.7em;
-    padding-top: 180px;
-    text-align: center;
-    color: #fff; } }
-@media (min-width: 768px) and (max-width: 1024px) {
-  #biz-sim-top-parallax-section {
-    height: 539px;
-    background-image: url("/wp-content/uploads/2015/04/biz-simulator-top-tablet.jpg");
-    background-repeat: no-repeat; } }
-@media (min-width: 768px) and (max-width: 1024px) {
-  #sim-biz-title h1 {
-    margin-top: 0px;
-    font-size: 2.5em;
-    padding-top: 180px;
-    text-align: center;
-    color: #fff; } }
-@media (max-width: 1024px) {
-  .biz-sim-parallax {
-    display: none; } }
-@media (min-width: 1025px) {
-  #sim-biz-title h1 {
-    display: none; } }
 .sim-section-title h1 {
   text-align: center;
   color: #fff;
