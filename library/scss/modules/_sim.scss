@@ -43,6 +43,49 @@ body{
     margin:10px auto;
 }
 
+.slide-container .slide.homesim{
+    position: relative;
+    display:block;
+    width:456px;
+    height:55px;
+    background:transparent url('/wp-content/uploads/2015/04/dot_bar_home.png') center center no-repeat;
+    margin:10px auto;
+}
+
+.sim-content p{
+    margin:20px auto 0 auto;
+    width: 580px;
+
+}
+
+.biz-sport{
+    left:0px;
+}
+
+.biz-orig{
+    left:201px;
+}
+
+.biz-elite{
+    left:402px;
+}
+
+.biz-wide{
+    left:602px;
+}
+
+.hm-orig{
+    left:0px;
+}
+
+.hm-elite{
+    left:201px;
+}
+
+.hm-wide{
+    left:402px;
+}
+
 .slide-container .titles{
 	font-size:14px;
 	padding:0;
@@ -124,22 +167,6 @@ body{
     cursor: hand; 
     cursor: pointer;
     background: transparent;
-}
-
-#orig{
-    left:0px;
-}
-
-#elite{
-    left:201px;
-}
-
-#wide{
-    left:402px;
-}
-
-#sport{
-    left:602px;
 }
 
 .draggable { 
