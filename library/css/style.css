@@ -1267,6 +1267,9 @@ ABOVE BOTTOM PARALLAX
   .home-top-parallax {
     display: none; } }
 @media (min-width: 1025px) {
+  .home-top-parallax {
+    height: 860px; } }
+@media (min-width: 1025px) {
   #tag-line h1 {
     display: none; } }
 @media (min-width: 1025px) {
@@ -1315,6 +1318,9 @@ ABOVE BOTTOM PARALLAX
   .home-sim-parallax {
     display: none; } }
 @media (min-width: 1025px) {
+  .home-sim-parallax {
+    height: 870px; } }
+@media (min-width: 1025px) {
   #sim-home-title h1 {
     display: none; } }
 /*********************
@@ -1361,7 +1367,7 @@ ABOVE BOTTOM PARALLAX
     display: none; } }
 @media (min-width: 1025px) {
   .biz-sim-parallax {
-    height: 400px; } }
+    height: 860px; } }
 @media (min-width: 1025px) {
   #sim-biz-title h1 {
     display: none; } }
