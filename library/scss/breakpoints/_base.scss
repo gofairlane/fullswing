@@ -27,6 +27,9 @@ body {
 
 p {
 	font-family: Roboto;
+	-webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
 }
 
 html, body{
@@ -1123,11 +1126,31 @@ margin-top:20px;
 .section-3-sim-list-blue img {
 	float:left;
 	margin-right:20px;
+	padding-bottom:10px;
+	}
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+.section-3-sim-list-blue img {
+	float:left;
+	margin-right:20px;
+	padding-bottom:76px;
+	}
 	}
 
 .section-3-sim-list-red img {
 	float:left;
 	margin-right:20px;
+	padding-bottom:10px;
+	}
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+.section-3-sim-list-red img {
+	float:left;
+	margin-right:20px;
+	padding-bottom:40px;
+	}
 	}
 
 .section-3-sim-list-red h3 {

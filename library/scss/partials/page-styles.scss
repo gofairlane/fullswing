@@ -228,7 +228,7 @@ POSTS
 
   .page-heading h1 {
   	text-align: center;
-  	color:$white;
+  	color:$black;
   	margin-top: 150px;
 
   }
@@ -328,3 +328,27 @@ CONTACT US PAGE
 
 }
 
+
+.sim-bullets {
+	float:left;
+	margin-top:30px;
+	width:200px;
+}
+
+.sim-bullets h3 {
+	font-size:2em;
+	color:$black;
+	float:left;
+	margin-top:-1px;
+	padding-right:15px;
+	}
+
+
+
+.sim-bullets h4 {
+	word-wrap:break-word;
+	color:$black;
+	line-height: .95em;
+	font-weight:100;
+	margin-top:0px;
+	}
