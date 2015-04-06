@@ -14,7 +14,7 @@
 
 // Top Nav Styles
 
-#logo .current-menu-parent > a{
+#logo .menu-item-has-children > a{
 	margin-right:10px;
 }
 
@@ -36,6 +36,7 @@
 
 	}
 
+
 /* turned off until after launch
 	>li:nth-child(8){
 		margin-right: 15px;
@@ -52,7 +53,7 @@
 	}
 */
 
-	.current-menu-parent > a{
+	.menu-item-has-children > a{
 
 		background: transparent url('/wp-content/uploads/2015/04/nav_arrow.png') center right no-repeat;
 		cursor: default;

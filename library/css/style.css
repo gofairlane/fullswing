@@ -2236,7 +2236,7 @@ select {
 .nav.top-nav {
   display: block; }
 
-#logo .current-menu-parent > a {
+#logo .menu-item-has-children > a {
   margin-right: 10px; }
 
 .top-nav {
@@ -2264,12 +2264,14 @@ select {
     .top-nav > li a:hover {
       color: #74b7e5;
       text-decoration: none; }
-  .top-nav .current-menu-parent > a {
+  .top-nav .current-menu-item > a, .top-nav .current-menu-parent > a {
+    color: #74b7e5; }
+  .top-nav .menu-item-has-children > a {
     background: transparent url("/wp-content/uploads/2015/04/nav_arrow.png") center right no-repeat;
     cursor: default;
     padding-right: 25px;
     margin-right: 10px; }
-    .top-nav .current-menu-parent > a:hover {
+    .top-nav .menu-item-has-children > a:hover {
       background: transparent url("/wp-content/uploads/2015/04/nav_arrow_over.png") center right no-repeat; }
   .top-nav .sub-menu {
     background: #414344;
