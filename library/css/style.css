@@ -2264,8 +2264,6 @@ select {
     .top-nav > li a:hover {
       color: #74b7e5;
       text-decoration: none; }
-  .top-nav .current-menu-item > a, .top-nav .current-menu-parent > a {
-    color: #74b7e5; }
   .top-nav .menu-item-has-children > a {
     background: transparent url("/wp-content/uploads/2015/04/nav_arrow.png") center right no-repeat;
     cursor: default;
@@ -3602,3 +3600,5 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */
