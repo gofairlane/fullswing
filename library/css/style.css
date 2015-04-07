@@ -3235,28 +3235,10 @@ view.
   padding-bottom: 20px;
   text-align: center; }
 
-div.pp_facebook .pp_content_container .pp_left {
-  background-image: none !important; }
-
-div.pp_facebook .pp_top .pp_middle {
-  background-image: none !important; }
-
-div.pp_facebook .pp_bottom .pp_middle {
-  background-image: none !important; }
-
-div.pp_facebook .pp_top .pp_left {
-  background-image: none !important; }
-
-div.pp_facebook .pp_top .pp_right {
-  background-image: none !important; }
-
-div.pp_facebook .pp_bottom .pp_right {
-  background-image: none !important; }
-
-div.pp_facebook .pp_content_container .pp_right {
-  background-image: none !important; }
-
-div.pp_facebook .pp_bottom .pp_left {
+/*********************
+ IMAGES LIGHTBOX CHANGES - Justified Image Grid (Pretty Josh)
+  *********************/
+div.pp_facebook .pp_content_container .pp_left, div.pp_facebook .pp_top .pp_middle, div.pp_facebook .pp_bottom .pp_middle, div.pp_facebook .pp_top .pp_left, div.pp_facebook .pp_top .pp_right, div.pp_facebook .pp_bottom .pp_right, div.pp_facebook .pp_content_container .pp_right, div.pp_facebook .pp_bottom .pp_left {
   background-image: none !important; }
 
 div.pp_facebook .pp_nav .pp_play, div.pp_facebook .pp_arrow_previous, div.pp_facebook .pp_arrow_next {
@@ -3270,6 +3252,16 @@ div.pp_facebook .pp_nav p {
 
 .pp_content_container .pp_details {
   margin-top: 0px !important; }
+
+div.pp_facebook .pp_close {
+  margin-right: 10px !important;
+  margin-top: 5px !important; }
+
+.pp_contract {
+  display: none !important; }
+
+.pp_expand {
+  display: none !important; }
 
 /*********************
 LARGER MOBILE DEVICES
