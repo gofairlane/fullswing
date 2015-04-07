@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
 
-	if(!isTouch()){
+	//if(!isTouch()){
  
 		$(".header").headroom({
 			// scroll tolerance in px before state changes
@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 				"notTop": "headroom--not-top"
 			}
 		});
-	}
+	//}
 
 	//mobile-nav
 
