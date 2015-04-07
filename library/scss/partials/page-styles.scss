@@ -54,13 +54,31 @@ Here is where we declare all of the styles for the page styles.
   width:90%;
 	
 }
-.column-4 {
+.icon-column-4 {
+	float:left;
+	margin-top:30px;
+	width:180px;
+}
+
+@media (min-width:0px) and (max-width: 375px) {
+.icon-column-4 {
 	float:left;
 	margin-top:30px;
 	width:200px;
+	margin-left:60px;
+}
 }
 
-.column-4 h3 {
+@media (min-width:376px) and (max-width: 667px) {
+.icon-column-4 {
+	float:left;
+	margin-top:30px;
+	width:200px;
+	margin-left:60px;
+}
+}
+
+.icon-column-4 h3 {
 	font-size:1.2em;
 	color:$black;
 	float:left;
@@ -70,7 +88,7 @@ Here is where we declare all of the styles for the page styles.
 
 
 
-.column-4 h4 {
+.icon-column-4 h4 {
 	word-wrap:break-word;
 	color:#efcaa8;
 	line-height: .95em;
@@ -78,7 +96,7 @@ Here is where we declare all of the styles for the page styles.
 	margin-top:0px;
 	}
 
-.column-4 h3 i {
+.icon-column-4 h3 i {
 	font-size:1.9em;	
 	width: 10px; 
 	height: 10px; 
@@ -331,28 +349,38 @@ CONTACT US PAGE
 
 .sim-bullets {
 	float:left;
-	margin-top:30px;
-	width:200px;
+	margin-top:20px;
+	width:180px;
 }
 
 
-@media (min-width:640px) and (max-width: 768px) {
+@media (min-width:0px) and (max-width: 375px) {
 	.sim-bullets {
 	float:left;
-	margin-left:80px;
+	margin-left:0px;
 	margin-top:30px;
 	width:200px;
 }
 }
 
-@media (min-width:0px) and (max-width: 639px) {
+@media (min-width:376px) and (max-width: 568px) {
 	.sim-bullets {
 	float:left;
-	margin-left:80px;
+	margin-left:30px;
 	margin-top:30px;
 	width:200px;
 }
 }
+
+@media (min-width:569px) and (max-width: 667px) {
+	.sim-bullets {
+	float:left;
+	margin-left:60px;
+	margin-top:30px;
+	width:200px;
+}
+}
+
 .sim-bullets h3 {
 	font-size:1em;
 	color:#686868;

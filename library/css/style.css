@@ -1105,16 +1105,24 @@ ABOVE BOTTOM PARALLAX
     text-align: center;
     width: 85%;
     font-size: 1.5em; } }
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 375px) {
   #sim-parallax-section {
     background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg");
     padding-bottom: 20px;
+    margin-top: -20px;
+    background-repeat: no-repeat; } }
+@media (min-width: 376px) and (max-width: 767px) {
+  #sim-parallax-section {
+    background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-mobile.jpg");
+    padding-bottom: 20px;
+    margin-top: -35px;
     background-repeat: no-repeat; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   #sim-parallax-section {
     height: 886px;
     background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background-tablet.jpg");
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat;
+    margin-top: -20px; } }
 @media (min-width: 1025px) {
   #sim-parallax-section {
     background-image: url("/wp-content/uploads/2015/03/home-simulator-video-background.jpg");
@@ -1124,7 +1132,8 @@ ABOVE BOTTOM PARALLAX
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px;
+    margin-top: -20px; } }
 @media (min-width: 601px) {
   .fly-over-header h2 {
     text-align: center;
@@ -1278,10 +1287,15 @@ ABOVE BOTTOM PARALLAX
 /*********************
   HOME SIM TOP PARALLAX
   *********************/
-@media (min-width: 0px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 375px) {
+  #home-sim-top-parallax-section {
+    height: 356px;
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-mobile-375.jpg");
+    background-repeat: no-repeat; } }
+@media (min-width: 376px) and (max-width: 480px) {
   #home-sim-top-parallax-section {
     height: 456px;
-    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-mobile.jpg");
+    background-image: url("/wp-content/uploads/2015/04/home-simulator-top-mobile-481.jpg");
     background-repeat: no-repeat; } }
 @media (min-width: 0px) and (max-width: 480px) {
   #sim-home-title h1 {
@@ -1377,12 +1391,14 @@ ABOVE BOTTOM PARALLAX
   margin-top: 250px; }
 
 .home-section-title h1 {
-  margin-top: 380px;
+  margin-top: 510px;
   margin-left: 350px;
-  color: #fff; }
+  line-height: 1em;
+  color: #fff;
+  width: 32%; }
 
 .home-section-title h3 {
-  margin-top: 14%;
+  margin-top: 5%;
   margin-left: 350px;
   color: #fff; }
 
@@ -1609,26 +1625,38 @@ Here is where we declare all of the styles for the page styles.
   margin-right: auto;
   width: 90%; }
 
-.column-4 {
+.icon-column-4 {
   float: left;
   margin-top: 30px;
-  width: 200px; }
+  width: 180px; }
 
-.column-4 h3 {
+@media (min-width: 0px) and (max-width: 375px) {
+  .icon-column-4 {
+    float: left;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 60px; } }
+@media (min-width: 376px) and (max-width: 667px) {
+  .icon-column-4 {
+    float: left;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 60px; } }
+.icon-column-4 h3 {
   font-size: 1.2em;
   color: #323944;
   float: left;
   margin-top: -1px;
   padding-right: 10px; }
 
-.column-4 h4 {
+.icon-column-4 h4 {
   word-wrap: break-word;
   color: #efcaa8;
   line-height: .95em;
   font-weight: 100;
   margin-top: 0px; }
 
-.column-4 h3 i {
+.icon-column-4 h3 i {
   font-size: 1.9em;
   width: 10px;
   height: 10px;
@@ -1828,19 +1856,25 @@ CONTACT US PAGE
 
 .sim-bullets {
   float: left;
-  margin-top: 30px;
-  width: 200px; }
+  margin-top: 20px;
+  width: 180px; }
 
-@media (min-width: 640px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 375px) {
   .sim-bullets {
     float: left;
-    margin-left: 80px;
+    margin-left: 0px;
     margin-top: 30px;
     width: 200px; } }
-@media (min-width: 0px) and (max-width: 639px) {
+@media (min-width: 376px) and (max-width: 568px) {
   .sim-bullets {
     float: left;
-    margin-left: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 200px; } }
+@media (min-width: 569px) and (max-width: 667px) {
+  .sim-bullets {
+    float: left;
+    margin-left: 60px;
     margin-top: 30px;
     width: 200px; } }
 .sim-bullets h3 {
@@ -2615,7 +2649,7 @@ POSTS & CONTENT STYLES
   background-color: #fff; }
   .hentry header {
     border-bottom: 1px solid #f8f9fa;
-    padding: 1.5em; }
+    padding: 0em; }
   .hentry footer {
     padding: 1.5em;
     border-top: 1px solid #f8f9fa; }
@@ -2974,8 +3008,8 @@ view.
   *********************/
 @media (min-width: 0px) and (max-width: 767px) {
   #home-parallax-section {
-    height: 600px;
-    background-image: url("/wp-content/uploads/2015/03/kimmel-blur-mobile.jpg");
+    height: 520px;
+    background-image: url("/wp-content/uploads/2015/04/kimmel-blur-mobile.jpg");
     background-size: 100%;
     background-repeat: no-repeat; } }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -3110,6 +3144,11 @@ view.
   margin-right: 20px;
   padding-bottom: 10px; }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .section-3-sim-list-blue img {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 55px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-3-sim-list-blue img {
     float: left;
@@ -3120,6 +3159,11 @@ view.
   margin-right: 20px;
   padding-bottom: 10px; }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  .section-3-sim-list-red img {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 55px; } }
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-3-sim-list-red img {
     float: left;
@@ -3615,5 +3659,3 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
-
-/*# sourceMappingURL=style.css.map */
