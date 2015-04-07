@@ -3235,6 +3235,42 @@ view.
   padding-bottom: 20px;
   text-align: center; }
 
+div.pp_facebook .pp_content_container .pp_left {
+  background-image: none !important; }
+
+div.pp_facebook .pp_top .pp_middle {
+  background-image: none !important; }
+
+div.pp_facebook .pp_bottom .pp_middle {
+  background-image: none !important; }
+
+div.pp_facebook .pp_top .pp_left {
+  background-image: none !important; }
+
+div.pp_facebook .pp_top .pp_right {
+  background-image: none !important; }
+
+div.pp_facebook .pp_bottom .pp_right {
+  background-image: none !important; }
+
+div.pp_facebook .pp_content_container .pp_right {
+  background-image: none !important; }
+
+div.pp_facebook .pp_bottom .pp_left {
+  background-image: none !important; }
+
+div.pp_facebook .pp_nav .pp_play, div.pp_facebook .pp_arrow_previous, div.pp_facebook .pp_arrow_next {
+  display: none; }
+
+div.pp_facebook .pp_nav p {
+  display: none !important; }
+
+.pp_social {
+  padding-left: 10px !important; }
+
+.pp_content_container .pp_details {
+  margin-top: 0px !important; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
